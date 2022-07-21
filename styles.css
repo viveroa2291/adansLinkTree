@@ -1,0 +1,45 @@
+body {
+    background-color: black;
+}
+section {
+    margin-top: 5rem;
+    display: block;
+    text-align: center;
+    color: white;
+}
+.picture {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.picture img {
+    margin-top: -635px;
+    margin-left: -285px;
+}
+.purple-block {
+    margin-left: 1rem;
+    position: fixed;
+    background-color: purple;
+    height: 50px;
+    width: 50px;
+    border-radius: 5px;
+    z-index: -2;
+    animation: flying 5s ease-in-out alternate infinite;
+}
+.headers {
+    line-height: 1px;
+}
+@keyframes flying {
+    from {
+        bottom: 0;
+        transform: rotate(0) scale(2);
+    }
+    to {
+        bottom: 75%;
+        transform: rotate(180deg) scale(1);
+    }
+}
