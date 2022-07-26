@@ -7,6 +7,25 @@ section {
     text-align: center;
     color: white;
 }
+h1 {
+    font-size: 18px;
+}
+h3{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+}
+.email {
+    height: 14px;
+    margin-right: 10px;
+}
+.social-media-headers {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    line-height: 0;
+    border: solid white 3px;
+    padding: 0;
+}
 .picture {
     display: block;
     margin-left: auto;
@@ -30,8 +49,84 @@ section {
     z-index: -2;
     animation: flying 5s ease-in-out alternate infinite;
 }
+.purple-block {
+    margin-left: 2rem;
+    position: fixed;
+    background-color: purple;
+    height: 50px;
+    width: 50px;
+    border-radius: 5px;
+    z-index: -2;
+    animation: flying 5s ease-in-out alternate infinite;
+}
+.purple-block2 {
+    margin-left: 25rem;
+    position: fixed;
+    background-color: purple;
+    height: 50px;
+    width: 50px;
+    border-radius: 5px;
+    z-index: -2;
+    animation: flying 10s ease-in-out alternate infinite;
+}
+.purple-block3 {
+    margin-left: 55rem;
+    position: fixed;
+    background-color: purple;
+    height: 50px;
+    width: 50px;
+    border-radius: 5px;
+    z-index: -2;
+    animation: flying 15s ease-in-out alternate infinite;
+}
+.purple-block4 {
+    margin-left: 75rem;
+    position: fixed;
+    background-color: purple;
+    height: 50px;
+    width: 50px;
+    border-radius: 5px;
+    z-index: -2;
+    animation: flying 25s ease-in-out alternate infinite;
+}
 .headers {
     line-height: 1px;
+}
+.instagram, .youtube, .github, .stackoverflow, .linkedin{
+    color: white;
+    font-size: 40px;
+    text-decoration: none;
+    margin-right: .75rem;
+}
+.tiktok {
+    background-color: purple;
+    margin-left: 1rem;
+}
+.tiktok:hover {
+    background-color: white;
+    cursor: pointer;
+}
+.social-media-body {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: row;
+    background-color: purple;
+    width: 50%;
+    border-radius: 5px;
+}
+.social-media-body:hover {
+    background-color: white;
+    cursor: pointer;
+}
+.tiktok-text {
+    margin-left: 1rem;
+    font-size: 20px;
+    line-height: 1px;
+    align-self: center;
+    color: black;
+    text-decoration: none;
 }
 @keyframes flying {
     from {
@@ -39,7 +134,8 @@ section {
         transform: rotate(0) scale(2);
     }
     to {
-        bottom: 75%;
-        transform: rotate(180deg) scale(1);
+        bottom: 95%;
+        opacity: 25%;
+        transform: rotate(1048deg) scale(1);
     }
 }
