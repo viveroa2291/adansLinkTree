@@ -2,7 +2,7 @@ body {
     background-color: black;
 }
 section {
-    margin-top: 5rem;
+    margin-top: 3rem;
     display: block;
     text-align: center;
     color: white;
@@ -14,6 +14,13 @@ h3{
     font-family: 'Times New Roman', Times, serif;
     font-size: 16px;
 }
+img {
+    height: 600px;
+}
+.business{
+    margin-top: 2rem;
+    line-height: 0;
+}
 .email {
     height: 14px;
     margin-right: 10px;
@@ -23,21 +30,24 @@ h3{
     flex-direction: row;
     justify-content: center;
     line-height: 0;
-    border: solid white 3px;
     padding: 0;
 }
 .picture {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    height: 200px;
-    width: 200px;
+    height: 150px;
+    width: 150px;
     border-radius: 50%;
     overflow: hidden;
 }
 .picture img {
-    margin-top: -635px;
-    margin-left: -285px;
+    /*
+    margin-top: -665px;
+    margin-left: -315px;
+    */
+    margin-top: -360px;
+    margin-left: -155px;
 }
 .purple-block {
     margin-left: 1rem;
@@ -102,10 +112,6 @@ h3{
     background-color: purple;
     margin-left: 1rem;
 }
-.tiktok:hover {
-    background-color: white;
-    cursor: pointer;
-}
 .social-media-body {
     display: block;
     margin-left: auto;
@@ -113,20 +119,37 @@ h3{
     display: flex;
     flex-direction: row;
     background-color: purple;
-    width: 50%;
+    width: 45%;
     border-radius: 5px;
+    margin-bottom: 1.5rem;
+    height: 50px;
+    padding-top: 2px;
+    padding-bottom: 2px;
 }
-.social-media-body:hover {
+.social-media-body:hover .tiktok,
+.social-media-body:hover{
     background-color: white;
     cursor: pointer;
+    transition: .75s;
 }
-.tiktok-text {
+.tiktok-text, .snapchat-text, .facebook-text, .discord-text, .telegram-text{
     margin-left: 1rem;
-    font-size: 20px;
+    font-size: 18px;
     line-height: 1px;
     align-self: center;
     color: black;
     text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+}
+.snapchat-icon, .facebook-icon, .discord-icon, .telegram-icon{
+    margin-left: 1.5rem;
+    align-self: center;
+}
+.bottom-text {
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    text-align: center;
+    bottom: 0;
 }
 @keyframes flying {
     from {
@@ -137,5 +160,33 @@ h3{
         bottom: 95%;
         opacity: 25%;
         transform: rotate(1048deg) scale(1);
+    }
+}
+@media (max-width: 1050px) {
+    .social-media-body {
+        width: 69%;
+    }
+    .purple-block {
+        margin-left: 1.5rem;
+        height: 20px;
+        width: 20px;
+    }
+    .purple-block2 {
+        margin-left: 7rem;
+        height: 25px;
+        width: 25px;
+    }
+    .purple-block3 {
+        margin-left: 15rem;
+        height: 30px;
+        width: 30px;
+    }
+    .purple-block4 {
+        margin-left: 25rem;
+        height: 35px;
+        width: 35px;
+    } 
+    hr {
+        width: 25%;
     }
 }
