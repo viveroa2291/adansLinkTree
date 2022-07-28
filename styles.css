@@ -132,7 +132,13 @@ img {
     cursor: pointer;
     transition: .75s;
 }
-.tiktok-text, .snapchat-text, .facebook-text, .discord-text, .telegram-text{
+.social-media-body:hover .vsco-icon,
+.vsco-icon:hover{
+    fill: #000000;
+    cursor: pointer;
+    transition: .75s;
+}
+.tiktok-text, .snapchat-text, .facebook-text, .discord-text, .telegram-text, .vsco-text{
     margin-left: 1rem;
     font-size: 18px;
     line-height: 1px;
@@ -141,7 +147,7 @@ img {
     text-decoration: none;
     font-family: 'Times New Roman', Times, serif;
 }
-.snapchat-icon, .facebook-icon, .discord-icon, .telegram-icon{
+.snapchat-icon, .facebook-icon, .discord-icon, .telegram-icon, .vsco-icon{
     margin-left: 1.5rem;
     align-self: center;
 }
@@ -189,4 +195,12 @@ img {
     hr {
         width: 25%;
     }
+}
+@media (max-width: 800px) {
+    .snapchat-icon, .facebook-icon, .discord-icon, .telegram-icon, .vsco-icon{
+        margin-left: 1rem;
+    }
+    .tiktok-text, .snapchat-text, .facebook-text, .discord-text, .telegram-text, .vsco-text{
+        font-size: 14px;
+    } 
 }
