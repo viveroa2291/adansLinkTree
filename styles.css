@@ -102,11 +102,14 @@ img {
 .headers {
     line-height: 1px;
 }
-.instagram, .youtube, .github, .stackoverflow, .linkedin{
+.instagram, .youtube, .github, .stackoverflow, .linkedin, .WJ{
     color: white;
     font-size: 40px;
     text-decoration: none;
     margin-right: .75rem;
+}
+.WJ {
+    margin-left: 1rem;
 }
 .tiktok {
     background-color: purple;
@@ -132,6 +135,14 @@ img {
     padding-top: 2px;
     padding-bottom: 2px;
 }
+.rumble-logo {
+    height: 35px;
+    margin-left: 1rem;
+    margin-top: .5rem;
+}
+.social-media-body:hover>.tiktok-text, .social-media-body:hover>.snapchat-text, .social-media-body:hover>.facebook-text, .social-media-body:hover>.discord-text, .social-media-body:hover>.telegram-text, .social-media-body:hover>.vsco-text, .social-media-body:hover>.venmo-text {
+    color: #000000;
+}
 .social-media-body:hover .tiktok,
 .social-media-body:hover{
     background-color: white;
@@ -149,9 +160,9 @@ img {
     font-size: 18px;
     line-height: 1px;
     align-self: center;
-    color: black;
+    color: white;
     text-decoration: none;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: Arial, Helvetica, sans-serif;
 }
 .snapchat-icon, .facebook-icon, .discord-icon, .telegram-icon, .vsco-icon{
     margin-left: 1.5rem;
