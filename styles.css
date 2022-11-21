@@ -25,6 +25,19 @@ img {
     height: 14px;
     margin-right: 10px;
 }
+.top-section {
+    color: white;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 1rem;
+    margin-bottom: .5rem;
+    text-decoration: none;
+    margin-right: .5rem;
+}
+.separators {
+    font-size: 20px;
+    margin-right: .5rem;
+}
 .social-media-headers {
     display: flex;
     flex-direction: row;
@@ -49,50 +62,40 @@ img {
     margin-top: -360px;
     margin-left: -155px;
 }
-.purple-block {
+.block {
     margin-left: 1rem;
     position: fixed;
-    background-color: purple;
+    background-color: white;
     height: 50px;
     width: 50px;
     border-radius: 5px;
     z-index: -2;
     animation: flying 5s ease-in-out alternate infinite;
 }
-.purple-block {
-    margin-left: 2rem;
-    position: fixed;
-    background-color: purple;
-    height: 50px;
-    width: 50px;
-    border-radius: 5px;
-    z-index: -2;
-    animation: flying 5s ease-in-out alternate infinite;
-}
-.purple-block2 {
+.block2 {
     margin-left: 25rem;
     position: fixed;
-    background-color: purple;
+    background-color: white;
     height: 50px;
     width: 50px;
     border-radius: 5px;
     z-index: -2;
     animation: flying 10s ease-in-out alternate infinite;
 }
-.purple-block3 {
+.block3 {
     margin-left: 55rem;
     position: fixed;
-    background-color: purple;
+    background-color: white;
     height: 50px;
     width: 50px;
     border-radius: 5px;
     z-index: -2;
     animation: flying 15s ease-in-out alternate infinite;
 }
-.purple-block4 {
+.block4 {
     margin-left: 75rem;
     position: fixed;
-    background-color: purple;
+    background-color: white;
     height: 50px;
     width: 50px;
     border-radius: 5px;
@@ -102,11 +105,22 @@ img {
 .headers {
     line-height: 1px;
 }
-.instagram, .youtube, .github, .stackoverflow, .linkedin, .WJ{
+.youtube, .github, .stackoverflow, .linkedin, .WJ{
     color: white;
     font-size: 40px;
     text-decoration: none;
     margin-right: .75rem;
+}
+.stackoverflow-block {
+    color: orange;
+    text-decoration: none;
+    margin-left: 1rem;
+    align-self: center;
+}
+.github-block {
+    text-decoration: none;
+    margin-left: 1rem;
+    align-self: center;
 }
 .WJ {
     margin-left: 1rem;
@@ -120,6 +134,28 @@ img {
     height: 40px;
     align-self: center;
     color: blue;
+}
+.robinhood {
+    height: 100px;
+    align-self: center;
+}
+.robinhood-text{
+    margin-left: .5rem;
+    line-height: 1px;
+    align-self: center;
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.venmo-text {
+    margin-left: 2rem;
+    line-height: 1px;
+    align-self: center;
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif; 
 }
 .social-media-body {
     display: block;
@@ -135,27 +171,114 @@ img {
     padding-top: 2px;
     padding-bottom: 2px;
 }
+.finance-body {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: row;
+    background-color: green;
+    width: 45%;
+    border-radius: 5px;
+    margin-bottom: 1.5rem;
+    height: 50px;
+    padding-top: 2px;
+    padding-bottom: 2px; 
+}
+.finance-body:hover {
+    background-color: white;
+    cursor: pointer;
+    transition: .75s; 
+}
+.finance-body:hover>.finance-text {
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+}
+.code-body {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: row;
+    background-color: purple;
+    width: 45%;
+    border-radius: 5px;
+    margin-bottom: 1.5rem;
+    height: 50px;
+    padding-top: 2px;
+    padding-bottom: 2px; 
+}
+.code-body:hover {
+    background-color: white;
+    cursor: pointer;
+    transition: .75s;
+}
+.code-body:hover>.code-text {
+    color: black;
+}
+.sponsors-body {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: row;
+    background-color: yellow;
+    width: 45%;
+    border-radius: 5px;
+    margin-bottom: 1.5rem;
+    height: 50px;
+    padding-top: 2px;
+    padding-bottom: 2px;  
+}
+.sponsors-body:hover {
+    background-color: white;
+    cursor: pointer;
+    transition: .75s; 
+}
+.sponsors-body:hover>.sponsors-text {
+    color: black;
+}
+.connect-body {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    width: 45%;
+    border-radius: 5px;
+    margin-bottom: 1.5rem;
+    height: 50px;
+    padding-top: 2px;
+    padding-bottom: 2px;   
+}
+.connect-body:hover {
+    background-color: white;
+    cursor: pointer;
+    transition: .75s; 
+}
+.connect-body:hover>.connect-text {
+    color: black;
+}
 .rumble-logo {
     height: 35px;
     margin-left: 1rem;
     margin-top: .5rem;
 }
-.social-media-body:hover>.tiktok-text, .social-media-body:hover>.snapchat-text, .social-media-body:hover>.facebook-text, .social-media-body:hover>.discord-text, .social-media-body:hover>.telegram-text, .social-media-body:hover>.vsco-text, .social-media-body:hover>.venmo-text {
+.social-media-body:hover>.tiktok-text, .social-media-body:hover>.snapchat-text, .social-media-body:hover>.facebook-text, .social-media-body:hover>.discord-text, .social-media-body:hover>.robinhood-text, .social-media-body:hover>.telegram-text, .social-media-body:hover>.vsco-text, .social-media-body:hover>.venmo-text {
     color: #000000;
 }
-.social-media-body:hover .tiktok,
-.social-media-body:hover{
+.social-media-body:hover .tiktok, .social-media-body:hover{
     background-color: white;
     cursor: pointer;
     transition: .75s;
 }
-.social-media-body:hover .vsco-icon,
-.vsco-icon:hover{
+.social-media-body:hover .vsco-icon, .vsco-icon:hover{
     fill: #000000;
     cursor: pointer;
     transition: .75s;
 }
-.tiktok-text, .snapchat-text, .facebook-text, .discord-text, .telegram-text, .vsco-text, .venmo-text{
+.tiktok-text, .snapchat-text, .facebook-text, .github-text, .gitlab-text, .discord-text, .instagram-text, .stackoverflow-text, .telegram-text, .vsco-text {
     margin-left: 1rem;
     font-size: 18px;
     line-height: 1px;
@@ -164,7 +287,16 @@ img {
     text-decoration: none;
     font-family: Arial, Helvetica, sans-serif;
 }
-.snapchat-icon, .facebook-icon, .discord-icon, .telegram-icon, .vsco-icon{
+.WJ-text {
+    margin-left: 1rem;
+    font-size: 18px;
+    line-height: 1px;
+    align-self: center;
+    color: black;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.snapchat-icon, .facebook-icon, .discord-icon, .telegram-icon, .vsco-icon, .gitlab-icon {
     margin-left: 1.5rem;
     align-self: center;
 }
@@ -173,6 +305,12 @@ img {
     color: white;
     text-align: center;
     bottom: 0;
+}
+.created {
+    font-size: 10px;
+}
+.finance, .code, .connect, .sponsors, .social {
+    display: none;
 }
 @keyframes flying {
     from {
@@ -189,22 +327,37 @@ img {
     .social-media-body {
         width: 69%;
     }
-    .purple-block {
+    .finance-body {
+        width: 69%;
+    }
+    .code-body {
+        width: 69%;
+    }
+    .sponsors-body {
+        width: 69%;
+    }
+    .connect-body {
+        width: 69%;
+    }
+    .github-text, .gitlab-text, .stackoverflow-text, .WJ-text {
+        font-size: 14px;
+    }
+    .block {
         margin-left: 1.5rem;
         height: 20px;
         width: 20px;
     }
-    .purple-block2 {
+    .block2 {
         margin-left: 7rem;
         height: 25px;
         width: 25px;
     }
-    .purple-block3 {
+    .block3 {
         margin-left: 15rem;
         height: 30px;
         width: 30px;
     }
-    .purple-block4 {
+    .block4 {
         margin-left: 25rem;
         height: 35px;
         width: 35px;
@@ -217,7 +370,7 @@ img {
     .snapchat-icon, .facebook-icon, .discord-icon, .telegram-icon, .vsco-icon{
         margin-left: 1rem;
     }
-    .tiktok-text, .snapchat-text, .facebook-text, .discord-text, .telegram-text, .vsco-text{
+    .tiktok-text, .snapchat-text, .instagram-text, .facebook-text, .discord-text, .telegram-text, .vsco-text{
         font-size: 14px;
     } 
 }
