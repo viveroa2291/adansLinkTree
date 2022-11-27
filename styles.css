@@ -150,6 +150,7 @@ img {
     font-family: 'Times New Roman', Times, serif;
     text-decoration: none;
     font-size: 15px; 
+    line-height: 1px;
 }
 .code-body {
     display: block;
