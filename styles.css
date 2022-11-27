@@ -7,44 +7,6 @@ section {
     text-align: center;
     color: white;
 }
-h1 {
-    font-size: 18px;
-}
-h3 {
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 16px;
-}
-img {
-    height: 600px;
-}
-.business {
-    margin-top: 2rem;
-    line-height: 0;
-}
-.email {
-    height: 14px;
-    margin-right: 10px;
-}
-.top-section {
-    color: white;
-    font-size: 20px;
-    font-family: 'Times New Roman', Times, serif;
-    margin-top: 1rem;
-    margin-bottom: .5rem;
-    text-decoration: none;
-    margin-right: .5rem;
-}
-.separators {
-    font-size: 20px;
-    margin-right: .5rem;
-}
-.social-media-headers {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    line-height: 0;
-    padding: 0;
-}
 .picture {
     display: block;
     margin-left: auto;
@@ -57,6 +19,355 @@ img {
 .picture img {
     margin-top: -360px;
     margin-left: -155px;
+}
+h1 {
+    font-size: 18px;
+}
+h3 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+}
+.headers {
+    line-height: 1px;
+}
+img {
+    height: 600px;
+}
+.business {
+    margin-top: 2rem;
+    line-height: 0;
+}
+.email {
+    height: 14px;
+    margin-right: 10px;
+}
+.social-media-headers {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    line-height: 0;
+    padding: 0;
+}
+    .top-section {
+        color: white;
+        font-size: 20px;
+        font-family: 'Times New Roman', Times, serif;
+        margin-top: 1rem;
+        margin-bottom: .5rem;
+        text-decoration: none;
+        margin-right: .5rem;
+    }
+    .separators {
+        font-size: 20px;
+        margin-right: .5rem;
+    }
+.github, .linkedin, .stackoverflow, .youtube, .WJ {
+    color: white;
+    font-size: 40px;
+    text-decoration: none;
+    margin-right: .75rem;
+}
+.finance, .code, .connect, .sponsors, .social {
+    display: none;
+}
+.finance-body {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(0, 100, 0);
+    width: 45%;
+    border-radius: 5px;
+    margin-bottom: 1.5rem;
+    height: 50px;
+    padding-top: 2px;
+    padding-bottom: 2px; 
+}
+.finance-body:hover {
+    background-color: white;
+    cursor: pointer;
+    transition: .75s; 
+}
+.finance-body:hover>.finance-text {
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.venmo {
+    margin-left: 1rem;
+    height: 40px;
+    align-self: center;
+    color: blue;
+}
+.venmo-text {
+    margin-left: 1rem;
+    line-height: 1px;
+    align-self: center;
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif; 
+}
+.robinhood {
+    height: 100px;
+    align-self: center; 
+    margin-right: -20px;
+    margin-left: -10px;
+}
+.robinhood-text{
+    margin-left: 5px;
+    align-self: center;
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.webull {
+    margin-left: 1rem;
+    align-self: center;
+}
+.webull-text {
+    margin-left: 1rem;
+    align-self: center;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: none;
+    font-size: 15px;
+}
+.coinbase {
+    margin-left: 1rem;
+    align-self: center;
+    width: 75px;
+    height: 75px;
+    margin-right: -1rem;
+}
+.coinbase-text {
+    margin-left: 1rem;
+    align-self: center;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: none;
+    font-size: 15px; 
+}
+.code-body {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: row;
+    background-color: purple;
+    width: 45%;
+    border-radius: 5px;
+    margin-bottom: 1.5rem;
+    height: 50px;
+    padding-top: 2px;
+    padding-bottom: 2px; 
+}
+.code-body:hover {
+    background-color: white;
+    cursor: pointer;
+    transition: .75s;
+}
+.code-body:hover>.code-text {
+    color: black;
+}
+.stackoverflow-block {
+    color: orange;
+    text-decoration: none;
+    margin-left: 1rem;
+    align-self: center;
+}
+.stackoverflow-text {
+    margin-left: 1rem;
+    font-size: 15px;
+    line-height: 1px;
+    align-self: center;
+    color: white;
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+}
+.github-block {
+    text-decoration: none;
+    margin-left: 1rem;
+    align-self: center;
+}
+.github-text {
+    margin-left: 1rem;
+    font-size: 15px;
+    line-height: 1px;
+    align-self: center;
+    color: white;
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif; 
+}
+.gitlab-icon {
+    margin-left: 1.5rem;
+    align-self: center;
+}
+.gitlab-text {
+    margin-left: 1rem;
+    font-size: 15px;
+    line-height: 1px;
+    align-self: center;
+    color: white;
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif; 
+}
+.sponsors-body {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: row;
+    background-color: yellow;
+    width: 45%;
+    border-radius: 5px;
+    margin-bottom: 1.5rem;
+    height: 50px;
+    padding-top: 2px;
+    padding-bottom: 2px;  
+}
+.sponsors-body:hover {
+    background-color: white;
+    cursor: pointer;
+    transition: .75s; 
+}
+.sponsors-body:hover>.sponsors-text {
+    color: black;
+}
+.WJ {
+    margin-left: 1rem;
+}
+.WJ-text {
+    margin-left: 1rem;
+    font-size: 18px;
+    align-self: center;
+    color: black;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.ukraine {
+    margin-left: 1rem;
+    align-self: center;
+}
+.ukraine-text {
+    margin-left: 1rem;
+    font-size: 18px;
+    align-self: center;
+    color: black;
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+}
+.connect-body {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    width: 45%;
+    border-radius: 5px;
+    margin-bottom: 1.5rem;
+    height: 50px;
+    padding-top: 2px;
+    padding-bottom: 2px;   
+}
+.connect-body:hover {
+    background-color: white;
+    cursor: pointer;
+    transition: .75s; 
+}
+.connect-body:hover>.connect-text {
+    color: black;
+}
+.linkedin-block {
+    color: blue;
+    text-decoration: none;
+    margin-left: 1rem;
+    align-self: center; 
+}
+.linkedin-text {
+    margin-left: 1rem;
+    line-height: 1px;
+    align-self: center;
+    color: black;
+    text-decoration: none;
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;  
+}
+.social-media-body {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(174, 95, 174);
+    width: 45%;
+    border-radius: 5px;
+    margin-bottom: 1.5rem;
+    height: 50px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+.social-media-body:hover>.instagram-text, .social-media-body:hover>.tiktok-text, .social-media-body:hover>.snapchat-text, .social-media-body:hover>.facebook-text, .social-media-body:hover>.discord-text, .social-media-body:hover>.robinhood-text, .social-media-body:hover>.telegram-text, .social-media-body:hover>.vsco-text, .social-media-body:hover>.venmo-text, .social-media-body:hover>.webull-text, .social-media-body:hover>.youtube-text {
+    color: #000000;
+}
+.social-media-body:hover .tiktok, .social-media-body:hover{
+    background-color: white;
+    cursor: pointer;
+    transition: .75s;
+}
+.social-media-body:hover .vsco-icon, .vsco-icon:hover{
+    fill: #000000;
+    cursor: pointer;
+    transition: .75s;
+}
+.instagram-block {
+    color: brown;
+    text-decoration: none;
+    margin-left: 1rem;
+    align-self: center;  
+}
+.instagram-text {
+    margin-left: 1rem;
+    line-height: 1px;
+    align-self: center;
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;  
+}
+.tiktok {
+    margin-left: .5rem;
+    margin-right: -10px;
+}
+.rumble-logo {
+    height: 35px;
+    margin-left: 1rem;
+    margin-top: .5rem;
+}
+.snapchat-icon, .facebook-icon, .discord-icon, .telegram-icon, .vsco-icon, .youtube-icon {
+    margin-left: 1.5rem;
+    align-self: center;
+}
+.tiktok-text, .snapchat-text, .facebook-text, .discord-text, .instagram-text, .telegram-text, .youtube-text, .vsco-text {
+    margin-left: 1rem;
+    font-size: 16px;
+    line-height: 1px;
+    align-self: center;
+    color: white;
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+}
+.bottom-text {
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    text-align: center;
+    bottom: 0;
+}
+.created {
+    font-size: 10px;
 }
 .block {
     margin-left: 1rem;
@@ -98,249 +409,7 @@ img {
     z-index: -2;
     animation: flying 25s ease-in-out alternate infinite;
 }
-.headers {
-    line-height: 1px;
-}
-.youtube, .github, .stackoverflow, .linkedin, .WJ{
-    color: white;
-    font-size: 40px;
-    text-decoration: none;
-    margin-right: .75rem;
-}
-.stackoverflow-block {
-    color: orange;
-    text-decoration: none;
-    margin-left: 1rem;
-    align-self: center;
-}
-.linkedin-block {
-    color: blue;
-    text-decoration: none;
-    margin-left: 1rem;
-    align-self: center; 
-}
-.instagram-block {
-    color: brown;
-    text-decoration: none;
-    margin-left: 1rem;
-    align-self: center;  
-}
-.github-block {
-    text-decoration: none;
-    margin-left: 1rem;
-    align-self: center;
-}
-.WJ {
-    margin-left: 1rem;
-}
-.tiktok {
-    margin-left: .5rem;
-}
-.venmo {
-    margin-left: 1rem;
-    height: 40px;
-    align-self: center;
-    color: blue;
-}
-.robinhood {
-    height: 100px;
-    align-self: center;
-}
-.webull {
-    margin-left: 1rem;
-    align-self: center;
-}
-.robinhood-text{
-    margin-left: .5rem;
-    line-height: 1px;
-    align-self: center;
-    color: white;
-    text-decoration: none;
-    font-size: 14px;
-    font-family: 'Times New Roman', Times, serif;
-}
-.linkedin-text {
-    margin-left: 1rem;
-    line-height: 1px;
-    align-self: center;
-    color: black;
-    text-decoration: none;
-    font-size: 16px;
-    font-family: 'Times New Roman', Times, serif;  
-}
-.instagram-text {
-    margin-left: 1rem;
-    line-height: 1px;
-    align-self: center;
-    color: white;
-    text-decoration: none;
-    font-size: 16px;
-    font-family: 'Times New Roman', Times, serif;  
-}
-.venmo-text {
-    margin-left: 1rem;
-    line-height: 1px;
-    align-self: center;
-    color: white;
-    text-decoration: none;
-    font-size: 16px;
-    font-family: 'Times New Roman', Times, serif; 
-}
-.social-media-body {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    display: flex;
-    flex-direction: row;
-    background-color: rgb(174, 95, 174);
-    width: 45%;
-    border-radius: 5px;
-    margin-bottom: 1.5rem;
-    height: 50px;
-    padding-top: 2px;
-    padding-bottom: 2px;
-}
-.finance-body {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    display: flex;
-    flex-direction: row;
-    background-color: rgb(0, 100, 0);
-    width: 45%;
-    border-radius: 5px;
-    margin-bottom: 1.5rem;
-    height: 50px;
-    padding-top: 2px;
-    padding-bottom: 2px; 
-}
-.finance-body:hover {
-    background-color: white;
-    cursor: pointer;
-    transition: .75s; 
-}
-.finance-body:hover>.finance-text {
-    color: black;
-    font-family: 'Times New Roman', Times, serif;
-}
-.code-body {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    display: flex;
-    flex-direction: row;
-    background-color: purple;
-    width: 45%;
-    border-radius: 5px;
-    margin-bottom: 1.5rem;
-    height: 50px;
-    padding-top: 2px;
-    padding-bottom: 2px; 
-}
-.code-body:hover {
-    background-color: white;
-    cursor: pointer;
-    transition: .75s;
-}
-.code-body:hover>.code-text {
-    color: black;
-}
-.sponsors-body {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    display: flex;
-    flex-direction: row;
-    background-color: yellow;
-    width: 45%;
-    border-radius: 5px;
-    margin-bottom: 1.5rem;
-    height: 50px;
-    padding-top: 2px;
-    padding-bottom: 2px;  
-}
-.sponsors-body:hover {
-    background-color: white;
-    cursor: pointer;
-    transition: .75s; 
-}
-.sponsors-body:hover>.sponsors-text {
-    color: black;
-}
-.connect-body {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    display: flex;
-    flex-direction: row;
-    background-color: white;
-    width: 45%;
-    border-radius: 5px;
-    margin-bottom: 1.5rem;
-    height: 50px;
-    padding-top: 2px;
-    padding-bottom: 2px;   
-}
-.connect-body:hover {
-    background-color: white;
-    cursor: pointer;
-    transition: .75s; 
-}
-.connect-body:hover>.connect-text {
-    color: black;
-}
-.rumble-logo {
-    height: 35px;
-    margin-left: 1rem;
-    margin-top: .5rem;
-}
-.social-media-body:hover>.instagram-text, .social-media-body:hover>.tiktok-text, .social-media-body:hover>.snapchat-text, .social-media-body:hover>.facebook-text, .social-media-body:hover>.discord-text, .social-media-body:hover>.robinhood-text, .social-media-body:hover>.telegram-text, .social-media-body:hover>.vsco-text, .social-media-body:hover>.venmo-text, .social-media-body:hover>.webull-text {
-    color: #000000;
-}
-.social-media-body:hover .tiktok, .social-media-body:hover{
-    background-color: white;
-    cursor: pointer;
-    transition: .75s;
-}
-.social-media-body:hover .vsco-icon, .vsco-icon:hover{
-    fill: #000000;
-    cursor: pointer;
-    transition: .75s;
-}
-.tiktok-text, .snapchat-text, .facebook-text, .github-text, .gitlab-text, .discord-text, .instagram-text, .stackoverflow-text, .telegram-text, .vsco-text, .webull-text {
-    margin-left: 1rem;
-    font-size: 18px;
-    line-height: 1px;
-    align-self: center;
-    color: white;
-    text-decoration: none;
-    font-family: Arial, Helvetica, sans-serif;
-}
-.WJ-text {
-    margin-left: 1rem;
-    font-size: 18px;
-    line-height: 1px;
-    align-self: center;
-    color: black;
-    text-decoration: none;
-    font-family: Arial, Helvetica, sans-serif;
-}
-.snapchat-icon, .facebook-icon, .discord-icon, .telegram-icon, .vsco-icon, .gitlab-icon {
-    margin-left: 1.5rem;
-    align-self: center;
-}
-.bottom-text {
-    font-family: 'Times New Roman', Times, serif;
-    color: white;
-    text-align: center;
-    bottom: 0;
-}
-.created {
-    font-size: 10px;
-}
-.finance, .code, .connect, .sponsors, .social {
-    display: none;
-}
+
 @keyframes flying {
     from {
         bottom: 0;
