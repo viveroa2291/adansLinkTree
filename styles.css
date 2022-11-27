@@ -10,14 +10,14 @@ section {
 h1 {
     font-size: 18px;
 }
-h3{
+h3 {
     font-family: 'Times New Roman', Times, serif;
     font-size: 16px;
 }
 img {
     height: 600px;
 }
-.business{
+.business {
     margin-top: 2rem;
     line-height: 0;
 }
@@ -55,10 +55,6 @@ img {
     overflow: hidden;
 }
 .picture img {
-    /*
-    margin-top: -665px;
-    margin-left: -315px;
-    */
     margin-top: -360px;
     margin-left: -155px;
 }
@@ -117,6 +113,18 @@ img {
     margin-left: 1rem;
     align-self: center;
 }
+.linkedin-block {
+    color: blue;
+    text-decoration: none;
+    margin-left: 1rem;
+    align-self: center; 
+}
+.instagram-block {
+    color: brown;
+    text-decoration: none;
+    margin-left: 1rem;
+    align-self: center;  
+}
 .github-block {
     text-decoration: none;
     margin-left: 1rem;
@@ -126,8 +134,7 @@ img {
     margin-left: 1rem;
 }
 .tiktok {
-    background-color: purple;
-    margin-left: 1rem;
+    margin-left: .5rem;
 }
 .venmo {
     margin-left: 1rem;
@@ -139,6 +146,10 @@ img {
     height: 100px;
     align-self: center;
 }
+.webull {
+    margin-left: 1rem;
+    align-self: center;
+}
 .robinhood-text{
     margin-left: .5rem;
     line-height: 1px;
@@ -148,8 +159,26 @@ img {
     font-size: 14px;
     font-family: 'Times New Roman', Times, serif;
 }
+.linkedin-text {
+    margin-left: 1rem;
+    line-height: 1px;
+    align-self: center;
+    color: black;
+    text-decoration: none;
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;  
+}
+.instagram-text {
+    margin-left: 1rem;
+    line-height: 1px;
+    align-self: center;
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;  
+}
 .venmo-text {
-    margin-left: 2rem;
+    margin-left: 1rem;
     line-height: 1px;
     align-self: center;
     color: white;
@@ -163,7 +192,7 @@ img {
     margin-right: auto;
     display: flex;
     flex-direction: row;
-    background-color: purple;
+    background-color: rgb(174, 95, 174);
     width: 45%;
     border-radius: 5px;
     margin-bottom: 1.5rem;
@@ -177,7 +206,7 @@ img {
     margin-right: auto;
     display: flex;
     flex-direction: row;
-    background-color: green;
+    background-color: rgb(0, 100, 0);
     width: 45%;
     border-radius: 5px;
     margin-bottom: 1.5rem;
@@ -265,7 +294,7 @@ img {
     margin-left: 1rem;
     margin-top: .5rem;
 }
-.social-media-body:hover>.tiktok-text, .social-media-body:hover>.snapchat-text, .social-media-body:hover>.facebook-text, .social-media-body:hover>.discord-text, .social-media-body:hover>.robinhood-text, .social-media-body:hover>.telegram-text, .social-media-body:hover>.vsco-text, .social-media-body:hover>.venmo-text {
+.social-media-body:hover>.instagram-text, .social-media-body:hover>.tiktok-text, .social-media-body:hover>.snapchat-text, .social-media-body:hover>.facebook-text, .social-media-body:hover>.discord-text, .social-media-body:hover>.robinhood-text, .social-media-body:hover>.telegram-text, .social-media-body:hover>.vsco-text, .social-media-body:hover>.venmo-text, .social-media-body:hover>.webull-text {
     color: #000000;
 }
 .social-media-body:hover .tiktok, .social-media-body:hover{
@@ -278,7 +307,7 @@ img {
     cursor: pointer;
     transition: .75s;
 }
-.tiktok-text, .snapchat-text, .facebook-text, .github-text, .gitlab-text, .discord-text, .instagram-text, .stackoverflow-text, .telegram-text, .vsco-text {
+.tiktok-text, .snapchat-text, .facebook-text, .github-text, .gitlab-text, .discord-text, .instagram-text, .stackoverflow-text, .telegram-text, .vsco-text, .webull-text {
     margin-left: 1rem;
     font-size: 18px;
     line-height: 1px;

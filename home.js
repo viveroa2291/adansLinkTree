@@ -82,6 +82,16 @@ function connect() {
     var connect = document.getElementById("connect");
     var socialMediaHeaders = document.getElementById("social-media-headers");
 
+    var block = document.getElementById("block");
+    var block2 = document.getElementById("block2");
+    var block3 = document.getElementById("block3");
+    var block4 = document.getElementById("block4");
+
+    block.style.backgroundColor = "white";
+    block2.style.backgroundColor = "white";
+    block3.style.backgroundColor = "white";
+    block4.style.backgroundColor = "white";
+
 
     finance.style.display = "none";
     connect.style.display = "block";
@@ -98,6 +108,15 @@ function social() {
     var connect = document.getElementById("connect");
     var socialMediaHeaders = document.getElementById("social-media-headers");
 
+    var block = document.getElementById("block");
+    var block2 = document.getElementById("block2");
+    var block3 = document.getElementById("block3");
+    var block4 = document.getElementById("block4");
+
+    block.style.backgroundColor = "rgb(174, 95, 174)";
+    block2.style.backgroundColor = "rgb(174, 95, 174)";
+    block3.style.backgroundColor = "rgb(174, 95, 174)";
+    block4.style.backgroundColor = "rgb(174, 95, 174)";
 
     finance.style.display = "none";
     connect.style.display = "none";
