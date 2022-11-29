@@ -152,6 +152,7 @@ img {
     width: 75px;
     height: 75px;
     margin-right: -1rem;
+    border: white 2px solid;
 }
 .coinbase-text {
     margin-left: 2rem;
@@ -160,7 +161,6 @@ img {
     font-family: 'Times New Roman', Times, serif;
     text-decoration: none;
     font-size: 15px; 
-    line-height: 1px;
 }
 .code-body {
     display: block;
