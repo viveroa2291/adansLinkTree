@@ -119,9 +119,13 @@ img {
     font-size: 16px;
     padding: 5px 0;
     margin-top: -1rem;
+    width: 24%;
 }
 .finance-hr {
     width: 50%;
+}
+.finance-paragraph {
+    font-size: 14px;
 }
 .robinhood {
     height: 100px;
@@ -450,7 +454,29 @@ img {
     z-index: -2;
     animation: flying 25s ease-in-out alternate infinite;
 }
-
+.hamburger {
+    display: block;
+    margin-left: auto;
+    margin-right: 1rem;
+    align-self: center;
+}
+.hamburger .hr1, .hr2, .hr3 {
+    width: 25px;
+    margin: 5px 0;
+    border: 2px solid black;
+}
+.hr1, .hr2, .hr3 {
+    transition: 1s;
+}
+.change .hr1 {
+    transform: rotate(-45deg) translate(-5px, 7px); 
+  }
+.change .hr2 {
+    opacity: 0;
+} 
+.change .hr3 {
+    transform: rotate(45deg) translate(-5px, -8px); 
+}
 @keyframes flying {
     from {
         bottom: 0;
