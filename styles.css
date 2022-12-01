@@ -84,105 +84,6 @@ img {
 .finance, .code, .connect, .sponsors, .social {
     display: none;
 }
-.finance-body {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    display: flex;
-    flex-direction: row;
-    background-color: rgb(0, 100, 0);
-    width: 25%;
-    border-radius: 5px;
-    height: 50px;
-    padding-top: 2px;
-    padding-bottom: 2px; 
-    text-decoration: none;
-    margin-bottom: 1.5rem;
-}
-.finance-body:hover {
-    background-color: white;
-    cursor: pointer;
-    transition: .75s; 
-}
-.finance-body:hover>.finance-text {
-    color: black;
-    font-family: 'Times New Roman', Times, serif;
-}
-.finance-article {
-    display: none;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: .5rem;
-    border-radius: 2px;
-    background-color: lime;
-    color: black;
-    font-size: 16px;
-    padding: 5px 0;
-    margin-top: -1rem;
-    width: 24%;
-}
-.finance-hr {
-    width: 50%;
-}
-.finance-paragraph {
-    font-size: 14px;
-}
-.robinhood {
-    height: 100px;
-    align-self: center; 
-    margin-right: -20px;
-    margin-left: -10px;
-}
-.robinhood-text{
-    margin-left: 5px;
-    align-self: center;
-    color: white;
-    text-decoration: none;
-    font-size: 15px;
-    font-family: 'Times New Roman', Times, serif;
-}
-.webull {
-    margin-left: 1.5rem;
-    align-self: center;
-}
-.webull-text {
-    margin-left: 2.5rem;
-    align-self: center;
-    color: white;
-    font-family: 'Times New Roman', Times, serif;
-    text-decoration: none;
-    font-size: 15px;
-}
-.coinbase {
-    margin-left: 1.5rem;
-    align-self: center;
-    width: 75px;
-    height: 75px;
-    margin-right: -1.5rem;
-}
-.coinbase-text {
-    margin-left: 2rem;
-    align-self: center;
-    color: white;
-    font-family: 'Times New Roman', Times, serif;
-    text-decoration: none;
-    font-size: 15px; 
-}
-.venmo {
-    margin-left: 2rem;
-    height: 40px;
-    align-self: center;
-    color: blue;
-}
-.venmo-text {
-    margin-left: 3rem;
-    line-height: 1px;
-    align-self: center;
-    color: white;
-    text-decoration: none;
-    font-size: 16px;
-    font-family: 'Times New Roman', Times, serif; 
-}
 .code-body {
     display: block;
     margin-left: auto;
@@ -246,63 +147,6 @@ img {
     color: white;
     text-decoration: none;
     font-family: 'Times New Roman', Times, serif; 
-}
-.sponsors-body {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    display: flex;
-    flex-direction: row;
-    background-color: yellow;
-    width: 25%;
-    border-radius: 5px;
-    margin-bottom: 1.5rem;
-    height: 50px;
-    padding-top: 2px;
-    padding-bottom: 2px;  
-}
-.sponsors-body:hover {
-    background-color: white;
-    cursor: pointer;
-    transition: .75s; 
-}
-.sponsors-body:hover>.sponsors-text {
-    color: black;
-}
-.WJ {
-    margin-left: 1.5rem;
-}
-.WJ-text {
-    margin-left: 1rem;
-    font-size: 16px;
-    align-self: center;
-    color: black;
-    text-decoration: none;
-    font-family: Arial, Helvetica, sans-serif;
-}
-.ukraine {
-    margin-left: 1.5rem;
-    align-self: center;
-}
-.ukraine-text {
-    margin-left: 1.5rem;
-    font-size: 16px;
-    align-self: center;
-    color: black;
-    text-decoration: none;
-    font-family: 'Times New Roman', Times, serif;
-}
-.fetch {
-    margin-left: .5rem;
-    margin-right: -.5rem;
-}
-.fetch-text {
-    margin-left: .5rem;
-    font-size: 12px;
-    align-self: center;
-    color: black;
-    text-decoration: none;
-    font-family: Arial, Helvetica, sans-serif; 
 }
 .connect-body {
     display: block;
@@ -457,7 +301,7 @@ img {
 .hamburger {
     display: block;
     margin-left: auto;
-    margin-right: 1rem;
+    margin-right: .5rem;
     align-self: center;
 }
 .hamburger .hr1, .hr2, .hr3 {
@@ -489,12 +333,6 @@ img {
     }
 }
 @media (max-width: 1050px) {
-    .finance-body {
-        width: 75%;
-    }
-    .finance-article {
-        width: 74%;
-    }
     .code-body {
         width: 69%;
     }

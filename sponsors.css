@@ -1,0 +1,85 @@
+.sponsors-body {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: row;
+    background-color: yellow;
+    width: 25%;
+    border-radius: 5px; 
+    height: 50px;
+    padding-top: 2px;
+    padding-bottom: 2px;  
+    text-decoration: none;
+    margin-bottom: 1.5rem;
+}
+.sponsors-body:hover {
+    background-color: white;
+    cursor: pointer;
+    transition: .75s; 
+}
+.sponsors-body:hover>.sponsors-text {
+    color: black;
+}
+.sponsors-article {
+    display: none;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: .5rem;
+    border-radius: 2px;
+    background-color: lightyellow;
+    color: black;
+    font-size: 16px;
+    padding: 5px 0;
+    margin-top: -1rem;
+    width: 24%;
+}
+.sponsors-paragraph {
+    font-size: 16px;
+}
+.sponsors-hr {
+    width: 50%;
+}
+.WJ {
+    margin-left: 1.5rem;
+}
+.WJ-text {
+    margin-left: 1rem;
+    font-size: 16px;
+    align-self: center;
+    color: black;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.ukraine {
+    margin-left: 1.5rem;
+    align-self: center;
+}
+.ukraine-text {
+    margin-left: 1.5rem;
+    font-size: 16px;
+    align-self: center;
+    color: black;
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+}
+.fetch {
+    margin-left: .5rem;
+    margin-right: -.5rem;
+}
+.fetch-text {
+    margin-left: .5rem;
+    font-size: 12px;
+    align-self: center;
+    color: black;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif; 
+}
+@media (max-width: 1050px) {
+    .sponsors-body {
+        width: 75%;
+    }
+    .sponsors-article {
+        width: 68%;
+    }
+}

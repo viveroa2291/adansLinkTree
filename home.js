@@ -122,6 +122,32 @@ function sponsors() {
     sponsors.style.display = "block";
     socialMediaHeaders.style.display = "none";
 }
+function WJ() {
+    var WJ = document.getElementById("WJ-article"); 
+    var fetch = document.getElementById("fetch-article");
+
+    if(WJ.style.display === "block") {
+        WJ.style.display = "none";
+    }
+    else 
+    {
+        WJ.style.display = "block";
+        fetch.style.display = "none";
+    }
+}
+function fetch() {
+    var WJ = document.getElementById("WJ-article"); 
+    var fetch = document.getElementById("fetch-article");
+
+    if(fetch.style.display === "block") {
+        fetch.style.display = "none";
+    }
+    else 
+    {
+        fetch.style.display = "block";
+        WJ.style.display = "none";
+    } 
+}
 function connect() {
     var finance = document.getElementById("finance");
     var code = document.getElementById("code");
