@@ -30,14 +30,17 @@ h3 {
     font-family: 'Times New Roman', Times, serif;
     font-size: 16px;
 }
-/*
 span {
-    font-size: 1.5rem;
-    margin-left: 1rem;
+    font-size: 2.5rem;
+    margin-left: 3rem;
     align-self: flex-end;
     color: black;
 }
-*/
+li {
+    text-align: start;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 12px;
+}
 .headers {
     line-height: 1px;
 }
@@ -90,11 +93,11 @@ img {
     background-color: rgb(0, 100, 0);
     width: 25%;
     border-radius: 5px;
-    margin-bottom: 1.5rem;
     height: 50px;
     padding-top: 2px;
     padding-bottom: 2px; 
     text-decoration: none;
+    margin-bottom: 1.5rem;
 }
 .finance-body:hover {
     background-color: white;
@@ -105,20 +108,20 @@ img {
     color: black;
     font-family: 'Times New Roman', Times, serif;
 }
-.venmo {
-    margin-left: 2rem;
-    height: 40px;
-    align-self: center;
-    color: blue;
-}
-.venmo-text {
-    margin-left: 3rem;
-    line-height: 1px;
-    align-self: center;
-    color: white;
-    text-decoration: none;
+.finance-article {
+    display: none;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: .5rem;
+    border-radius: 2px;
+    background-color: lime;
+    color: black;
     font-size: 16px;
-    font-family: 'Times New Roman', Times, serif; 
+    padding: 5px 0;
+    margin-top: -1rem;
+}
+.finance-hr {
+    width: 50%;
 }
 .robinhood {
     height: 100px;
@@ -160,6 +163,21 @@ img {
     font-family: 'Times New Roman', Times, serif;
     text-decoration: none;
     font-size: 15px; 
+}
+.venmo {
+    margin-left: 2rem;
+    height: 40px;
+    align-self: center;
+    color: blue;
+}
+.venmo-text {
+    margin-left: 3rem;
+    line-height: 1px;
+    align-self: center;
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif; 
 }
 .code-body {
     display: block;
@@ -447,6 +465,9 @@ img {
 @media (max-width: 1050px) {
     .finance-body {
         width: 75%;
+    }
+    .finance-article {
+        width: 74%;
     }
     .code-body {
         width: 69%;
