@@ -1,0 +1,76 @@
+.social-media-body {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(174, 95, 174);
+    width: 25%;
+    border-radius: 5px;
+    margin-bottom: 1.5rem;
+    height: 50px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+.social-media-body:hover>.twitter-text, .social-media-body:hover>.instagram-text, .social-media-body:hover>.tiktok-text, .social-media-body:hover>.snapchat-text, .social-media-body:hover>.facebook-text, .social-media-body:hover>.discord-text, .social-media-body:hover>.robinhood-text, .social-media-body:hover>.telegram-text, .social-media-body:hover>.vsco-text, .social-media-body:hover>.venmo-text, .social-media-body:hover>.webull-text, .social-media-body:hover>.youtube-text {
+    color: #000000;
+}
+.social-media-body:hover .tiktok, .social-media-body:hover{
+    background-color: white;
+    cursor: pointer;
+    transition: .75s;
+}
+.social-media-body:hover .vsco-icon, .vsco-icon:hover{
+    fill: #000000;
+    cursor: pointer;
+    transition: .75s;
+}
+.twitter {
+    margin-left: 1rem;
+    align-self: center;
+}
+.instagram-block {
+    color: brown;
+    text-decoration: none;
+    margin-left: 1rem;
+    align-self: center;  
+}
+.instagram-text {
+    margin-left: 1rem;
+    line-height: 1px;
+    align-self: center;
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;  
+}
+.tiktok {
+    margin-left: .5rem;
+    margin-right: -10px;
+}
+.rumble-logo {
+    height: 35px;
+    margin-left: 1rem;
+    margin-top: .5rem;
+}
+.snapchat-icon, .facebook-icon, .discord-icon, .telegram-icon, .vsco-icon, .youtube-icon {
+    margin-left: 1.5rem;
+    align-self: center;
+}
+.tiktok-text, .snapchat-text, .facebook-text, .discord-text, .instagram-text, .telegram-text, .youtube-text, .vsco-text, .twitter-text {
+    margin-left: 1rem;
+    font-size: 16px;
+    line-height: 1px;
+    align-self: center;
+    color: white;
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+}
+@media (max-width: 800px) {
+    .snapchat-icon, .facebook-icon, .discord-icon, .telegram-icon, .vsco-icon{
+        margin-left: 1rem;
+    }
+    .twitter-text, .tiktok-text, .snapchat-text, .instagram-text, .facebook-text, .discord-text, .telegram-text, .vsco-text{
+        font-size: 14px;
+    } 
+}

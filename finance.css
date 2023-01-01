@@ -40,6 +40,8 @@
 }
 .finance-paragraph {
     font-size: 14px;
+    margin-left: 5px;
+    margin-right: 5px;
 }
 .robinhood {
     height: 100px;
@@ -70,12 +72,37 @@
 .coinbase {
     margin-left: 1.5rem;
     align-self: center;
+    margin-top: 1rem;
     width: 75px;
     height: 75px;
     margin-right: -1.5rem;
 }
 .coinbase-text {
     margin-left: 2rem;
+    align-self: center;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: none;
+    font-size: 15px; 
+}
+.pi {
+    margin-left: 2rem;
+}
+.pi-text {
+    margin-left: 2rem;
+    align-self: center;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: none;
+    font-size: 15px;
+}
+.cashapp {
+    margin-left: 2rem;
+    align-self: center;
+    height: 40px;
+}
+.cashapp-text {
+    margin-left: 2.5rem;
     align-self: center;
     color: white;
     font-family: 'Times New Roman', Times, serif;
@@ -97,6 +124,7 @@
     font-size: 16px;
     font-family: 'Times New Roman', Times, serif; 
 }
+
 @media (max-width: 1050px) {
     .finance-body {
         width: 75%;

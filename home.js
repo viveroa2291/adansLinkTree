@@ -45,21 +45,27 @@ function webull() {
     var robinhood = document.getElementById("robinhood-article"); 
     var webull = document.getElementById("webull-article");
     var coinbase = document.getElementById("coinbase-article");
+    var pi = document.getElementById("pi-article");
+    var cashapp = document.getElementById("cashapp-article");
 
     if(webull.style.display === "block") {
-                webull.style.display = "none";
+        webull.style.display = "none";
     }
     else 
     {
         webull.style.display = "block";
         robinhood.style.display = "none";
         coinbase.style.display = "none";
+        pi.style.display = "none";
+        cashapp.style.display = "none";
     }
 }
 function coinbase() {
     var robinhood = document.getElementById("robinhood-article"); 
     var webull = document.getElementById("webull-article");
     var coinbase = document.getElementById("coinbase-article");
+    var pi = document.getElementById("pi-article");
+    var cashapp = document.getElementById("cashapp-article");
 
     if(coinbase.style.display === "block") {
                 coinbase.style.display = "none";
@@ -69,7 +75,47 @@ function coinbase() {
         coinbase.style.display = "block";
         robinhood.style.display = "none";
         webull.style.display = "none";
+        pi.style.display = "none";
+        cashapp.style.display = "none";
     }
+}
+function pi() {
+    var robinhood = document.getElementById("robinhood-article"); 
+    var webull = document.getElementById("webull-article");
+    var coinbase = document.getElementById("coinbase-article");
+    var pi = document.getElementById("pi-article");
+    var cashapp = document.getElementById("cashapp-article");
+
+    if(pi.style.display === "block") {
+        pi.style.display = "none";
+    }
+    else 
+    {
+        pi.style.display = "block";
+        coinbase.style.display = "none";
+        robinhood.style.display = "none";
+        webull.style.display = "none";
+        cashapp.style.display = "none";
+    } 
+}
+function cashapp() {
+    var robinhood = document.getElementById("robinhood-article"); 
+    var webull = document.getElementById("webull-article");
+    var coinbase = document.getElementById("coinbase-article");
+    var pi = document.getElementById("pi-article");
+    var cashapp = document.getElementById("cashapp-article");
+
+    if(cashapp.style.display === "block") {
+        cashapp.style.display = "none";
+    }
+    else 
+    {
+        pi.style.display = "none";
+        coinbase.style.display = "none";
+        robinhood.style.display = "none";
+        webull.style.display = "none";
+        cashapp.style.display = "block";
+    }  
 }
 function code() {
     var finance = document.getElementById("finance");
