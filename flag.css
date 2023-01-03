@@ -1,0 +1,68 @@
+.USA-flag {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 450px;
+    min-width: 450px;
+    /* height: 225px; */
+  /*  box-shadow: 0px 10px 40px 5px rgba(0, 0, 0, 0.25); */
+    position: relative;
+    margin-top: -5rem;
+    margin-bottom: -3rem;
+}
+.stripe {
+    background-color: #9b1c2c;
+    width: 100%;
+    height: calc(225px / 13);
+}
+.stripe--white {
+    background-color: white;
+}
+.USA-stars {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 189px;
+    height: calc((225px / 13) * 7);
+    background-color: #041e42;
+    z-index: 1;
+    padding: 6px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.star {
+    font-size: 10px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin-top: -4px;
+}
+.star-row {
+    display: flex;
+    justify-content: space-between;
+}
+.star-row--five {
+    padding: 0px 16.5px;
+}
+@media (max-width: 1000px) {
+    .USA-flag {
+      transform: scale(0.75);
+    }
+}
+@media (max-width: 725px) {
+    .USA-flag {
+      transform: scale(0.5);
+    }
+}
+@media (max-width: 475px) {
+    .USA-flag {
+      transform: scale(0.375);
+    }
+}
+@media (max-width: 340px) {
+    .USA-flag {
+      transform: scale(0.325);
+    }
+}

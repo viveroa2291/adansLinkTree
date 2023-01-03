@@ -4,7 +4,19 @@ let mm = today.getMonth() + 1;
 let yy = today.getFullYear();
 let days = today.getDay();
 
+    var block = document.getElementById("block");
+    var block2 = document.getElementById("block2");
+    var block3 = document.getElementById("block3");
+    var block4 = document.getElementById("block4");
+    var star = document.getElementById("star");
+    var star2 = document.getElementById("star2");
+    var star3 = document.getElementById("star3");
+    var star4 = document.getElementById("star4");
+
 var day = document.getElementById("date");
+var usFlag = document.getElementById("usa-flag");
+
+usFlag.style.display = "none";
 
 switch(days) {
     case 0: 
@@ -29,6 +41,11 @@ switch(days) {
         days = "Saturday";
         break;
 }
+star.style.display = "none";
+star2.style.display = "none";
+star3.style.display = "none";
+star4.style.display = "none";
+
 day.innerText = "\nHappy " + days;
 // New Year 
 if(mm == 1 && dd == 1) {
@@ -37,6 +54,10 @@ if(mm == 1 && dd == 1) {
 // New Year's Day 
 if(mm == 1 && dd == 2) {
     day.innerText = "Happy " + days + "\n\nHappy New Year's Day!";
+}
+// Today
+if(mm == 1 && dd == 3) {
+    day.innerText = "Happy " + days;
 }
 // MLK Day 
 if(mm == 1 && dd == 16) {
@@ -57,6 +78,7 @@ if(mm == 6 && dd == 19) {
 // Fourth of July
 if(mm == 7 && dd == 4) {
     day.innerText = "Happy " + days + "\n\nHappy Fourth of July!";
+    usFlag.style.display = "block";
 }
 // Labor Day 
 if(mm == 9 && dd == 4) {
@@ -72,11 +94,24 @@ if(mm == 11 && dd >= 22 && dd >= 28 && days == "Thursday") {
 }
 // Christmas Eve
 if(mm == 12 && dd == 24) {
+    
     day.innerText = "Happy " + days + "\n\nMerry Christmas Eve!";
+    
+    block.style.backgroundColor = "white";
+    block2.style.backgroundColor = "green";
+    block3.style.backgroundColor = "red";
+    block4.style.backgroundColor = "green";
+    star.style.display = "block";
 }
 // Christmas
 if(mm == 12 && dd == 25) {
     day.innerText = "Happy " + days + "\n\nMerry Christmas!";
+
+    block.style.backgroundColor = "white";
+    block2.style.backgroundColor = "green";
+    block3.style.backgroundColor = "red";
+    block4.style.backgroundColor = "green";
+    star.style.display = "block"; 
 }
 // New Years Eve 
 if(mm == 12 && dd == 31) {

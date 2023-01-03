@@ -1,0 +1,295 @@
+#star {
+    margin-left: 1rem;
+    position: fixed;
+    display: block;
+    width: 0px;
+    height: 0px;
+    /*
+    border-right: 100px solid transparent;
+    border-bottom: 70px solid green;
+    border-left: 100px solid transparent; */
+    
+    border-right: 25px solid transparent;
+    border-bottom: 17.5px solid white;
+    border-left: 25px solid transparent;
+
+    transform: rotate(35deg); 
+    z-index: -2;
+    animation: star-one-flying 5s ease-in-out alternate infinite;
+}
+#star:before {
+    /*
+    border-bottom: 80px solid red;
+    border-left: 30px solid transparent;
+    border-right: 30px solid transparent;
+    top: -45px;
+    left: -65px;
+    */
+    border-bottom: 20px solid white;
+    border-left: 7.5px solid transparent;
+    border-right: 7.5px solid transparent;
+    top: -11.15px;
+    left: -16.25px;
+    position: fixed;
+    height: 0;
+    width: 0;
+    display: block;
+    content: '';
+    transform: rotate(-35deg);
+}
+#star:after {
+    position: fixed;
+    display: block;
+    width: 0px;
+    height: 0px;
+    /* color: red; */
+    /*
+    top: 3px;
+    left: -105px;
+    border-right: 100px solid transparent;
+    border-bottom: 70px solid white;
+    border-left: 100px solid transparent;
+    */
+    top: .75px;
+    left: -26.25px;
+    border-right: 25px solid transparent;
+    border-bottom: 17.5px solid white;
+    border-left: 25px solid transparent; 
+    transform: rotate(-70deg);
+    content: '';
+}
+#star2 {
+    margin-left: 10rem;
+    position: fixed;
+    display: block;
+    width: 0px;
+    height: 0px;
+    
+    border-right: 25px solid transparent;
+    border-bottom: 17.5px solid red;
+    border-left: 25px solid transparent;
+
+    transform: rotate(35deg); 
+    z-index: -2;
+    animation: star-two-flying 5s ease-in-out alternate infinite;
+}
+#star2:before {
+    border-bottom: 20px solid red;
+    border-left: 7.5px solid transparent;
+    border-right: 7.5px solid transparent;
+    top: -11.15px;
+    left: -16.25px;
+    position: fixed;
+    height: 0;
+    width: 0;
+    display: block;
+    content: '';
+    transform: rotate(-35deg);
+}
+#star2:after {
+    position: fixed;
+    display: block;
+    width: 0px;
+    height: 0px;
+    top: .75px;
+    left: -26.25px;
+    border-right: 25px solid transparent;
+    border-bottom: 17.5px solid red;
+    border-left: 25px solid transparent; 
+    transform: rotate(-70deg);
+    content: '';
+}
+#star3 {
+    margin-left: 17.5rem;
+    position: fixed;
+    display: block;
+    width: 0px;
+    height: 0px;
+    
+    border-right: 25px solid transparent;
+    border-bottom: 17.5px solid white;
+    border-left: 25px solid transparent;
+
+    transform: rotate(35deg); 
+    z-index: -2;
+    animation: star-three-flying 5s ease-in-out alternate infinite;
+}
+#star3:before {
+    border-bottom: 20px solid white;
+    border-left: 7.5px solid transparent;
+    border-right: 7.5px solid transparent;
+    top: -11.15px;
+    left: -16.25px;
+    position: fixed;
+    height: 0;
+    width: 0;
+    display: block;
+    content: '';
+    transform: rotate(-35deg);
+}
+#star3:after {
+    position: fixed;
+    display: block;
+    width: 0px;
+    height: 0px;
+    top: .75px;
+    left: -26.25px;
+    border-right: 25px solid transparent;
+    border-bottom: 17.5px solid white;
+    border-left: 25px solid transparent; 
+    transform: rotate(-70deg);
+    content: '';
+}
+#star4 {
+    margin-left: 22rem;
+    position: fixed;
+    display: block;
+    width: 0px;
+    height: 0px;
+    border-right: 25px solid transparent;
+    border-bottom: 17.5px solid green;
+    border-left: 25px solid transparent;
+    transform: rotate(35deg); 
+    z-index: -2;
+    animation: star-four-flying 5s ease-in-out alternate infinite;
+}
+#star4:before {
+    border-bottom: 20px solid green;
+    border-left: 7.5px solid transparent;
+    border-right: 7.5px solid transparent;
+    top: -11.15px;
+    left: -16.25px;
+    
+    position: fixed;
+    height: 0;
+    width: 0;
+    display: block;
+    content: '';
+    transform: rotate(-35deg);
+}
+#star4:after {
+    position: fixed;
+    display: block;
+    width: 0px;
+    height: 0px;
+    /* color: red; */
+    top: .75px;
+    left: -26.25px;
+    border-right: 25px solid transparent;
+    border-bottom: 17.5px solid green;
+    border-left: 25px solid transparent;
+    transform: rotate(-70deg);
+    content: '';
+}
+@keyframes star-one-flying {
+    from {
+        bottom: 0;
+        left: 0;
+        transform: rotate(0);
+    }
+    25% {
+        bottom: 77%;
+        left: 20%;
+        transform: rotate(180deg);
+    }
+    50% {
+        bottom: 95%;
+        left: 40%;
+        transform: rotate(360deg);
+    }
+    75% {
+        bottom: 77%; 
+        left: 65%;
+        transform: rotate(720deg);
+    }
+    to {
+        bottom: 62%;
+        left: 42%;
+        opacity: 25%; 
+        transform: rotate(1048deg);
+    }
+}
+@keyframes star-two-flying {
+    from {
+        bottom: 0;
+        left: 0;
+        transform: rotate(0);
+    }
+    25% {
+        bottom: 62%;
+        left: 12.5%;
+        transform: rotate(180deg);
+    }
+    50% {
+        bottom: 78%;
+        left: -10%;
+        transform: rotate(360deg);
+    }
+    75% {
+        bottom: 94%; 
+        left: 12.5%;
+        transform: rotate(720deg);
+    }
+    to {
+        bottom: 78%;
+        left: 35%;
+        opacity: 25%; 
+        transform: rotate(1048deg);
+    }
+}
+@keyframes star-three-flying {
+    from {
+        bottom: 0;
+        left: 0;
+        transform: rotate(0);
+    }
+    25% {
+        bottom: 77%;
+        left: 12.5%;
+        transform: rotate(180deg);
+    }
+    50% {
+        bottom: 62%;
+        left: -10%;
+        transform: rotate(360deg);
+    }
+    75% {
+        bottom: 78%; 
+        left: -35%;
+        transform: rotate(720deg);
+    }
+    to {
+        bottom: 96%;
+        left: -10%;
+        opacity: 25%; 
+        transform: rotate(1048deg);
+    }
+}
+@keyframes star-four-flying {
+    from {
+        bottom: 0;
+        left: 0;
+        transform: rotate(0);
+    }
+    25% {
+        bottom: 92%;
+        left: -26%;
+        transform: rotate(180deg);
+    }
+    50% {
+        bottom: 78%;
+        left: -2%;
+        transform: rotate(360deg);
+    }
+    75% {
+        bottom: 62%; 
+        left: -26%;
+        transform: rotate(720deg);
+    }
+    to {
+        bottom: 78%;
+        left: -50%;
+        opacity: 50%; 
+        transform: rotate(1048deg);
+    }
+}
