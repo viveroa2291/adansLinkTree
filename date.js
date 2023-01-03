@@ -55,7 +55,7 @@ if(mm == 1 && dd == 1) {
 if(mm == 1 && dd == 2) {
     day.innerText = "Happy " + days + "\n\nHappy New Year's Day!";
 }
-// Today
+// For testing purposes 
 if(mm == 1 && dd == 3) {
     day.innerText = "Happy " + days;
 }
