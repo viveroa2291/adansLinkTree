@@ -1,4 +1,3 @@
-
 function finance() {
     var finance = document.getElementById("finance");
     var code = document.getElementById("code");
