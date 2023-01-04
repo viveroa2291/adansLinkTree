@@ -18,6 +18,7 @@ var usFlag = document.getElementById("usa-flag");
 
 usFlag.style.display = "none";
 
+
 switch(days) {
     case 0: 
         days = "Sunday";
@@ -47,6 +48,23 @@ star3.style.display = "none";
 star4.style.display = "none";
 
 day.innerText = "\nHappy " + days;
+
+// For testing purposes 
+/*
+if(mm == 1 && dd == 4) {
+    day.innerText = "Happy " + days;
+    
+    star.style.display = "block";  
+    star2.style.display = "block";
+    star3.style.display = "block";
+    star4.style.display = "block"; 
+    
+}
+*/
+
+/**
+ * Holiday If Statements down below.
+ */
 // New Year 
 if(mm == 1 && dd == 1) {
     day.innerText = "Happy " + days + "\n\nHappy New Year!";
@@ -54,10 +72,6 @@ if(mm == 1 && dd == 1) {
 // New Year's Day 
 if(mm == 1 && dd == 2) {
     day.innerText = "Happy " + days + "\n\nHappy New Year's Day!";
-}
-// For testing purposes 
-if(mm == 1 && dd == 3) {
-    day.innerText = "Happy " + days;
 }
 // MLK Day 
 if(mm == 1 && dd == 16) {
