@@ -27,14 +27,17 @@ function robinhood() {
     var robinhood = document.getElementById("robinhood-article");
     var webull = document.getElementById("webull-article");
     var coinbase = document.getElementById("coinbase-article");
+    var robinhoodBody = document.getElementById("robinhood");
 
     if (robinhood.style.display === "block") {
-                robinhood.style.display = "none";
+        robinhood.style.display = "none";
+        robinhoodBody.style.border = "none";
     }
     else {
         robinhood.style.display = "block";
         webull.style.display = "none";
         coinbase.style.display = "none";
+        robinhoodBody.style.border = "dashed white 1px";
     }
 }
 function myRotate(x) {    
@@ -46,9 +49,11 @@ function webull() {
     var coinbase = document.getElementById("coinbase-article");
     var pi = document.getElementById("pi-article");
     var cashapp = document.getElementById("cashapp-article");
+    var webullBody = document.getElementById("webull");
 
     if(webull.style.display === "block") {
         webull.style.display = "none";
+        webullBody.style.border = "none";
     }
     else 
     {
@@ -57,6 +62,7 @@ function webull() {
         coinbase.style.display = "none";
         pi.style.display = "none";
         cashapp.style.display = "none";
+        webullBody.style.border = "dashed white 1px";
     }
 }
 function coinbase() {
@@ -65,9 +71,10 @@ function coinbase() {
     var coinbase = document.getElementById("coinbase-article");
     var pi = document.getElementById("pi-article");
     var cashapp = document.getElementById("cashapp-article");
-
+    var coinbaseBody = document.getElementById("coinbase");
     if(coinbase.style.display === "block") {
-                coinbase.style.display = "none";
+        coinbase.style.display = "none";
+        coinbaseBody.style.border = "none";        
     }
     else 
     {
@@ -76,6 +83,7 @@ function coinbase() {
         webull.style.display = "none";
         pi.style.display = "none";
         cashapp.style.display = "none";
+        coinbaseBody.style.border = "dashed white 1px";
     }
 }
 function pi() {
@@ -84,9 +92,11 @@ function pi() {
     var coinbase = document.getElementById("coinbase-article");
     var pi = document.getElementById("pi-article");
     var cashapp = document.getElementById("cashapp-article");
+    var piBody = document.getElementById("pi");
 
     if(pi.style.display === "block") {
         pi.style.display = "none";
+        pi.style.border = "none";
     }
     else 
     {
@@ -95,6 +105,7 @@ function pi() {
         robinhood.style.display = "none";
         webull.style.display = "none";
         cashapp.style.display = "none";
+        pi.style.border = "dashed white 1px";
     } 
 }
 function cashapp() {
@@ -103,9 +114,11 @@ function cashapp() {
     var coinbase = document.getElementById("coinbase-article");
     var pi = document.getElementById("pi-article");
     var cashapp = document.getElementById("cashapp-article");
+    var cashappBody = document.getElementById("cashapp");
 
     if(cashapp.style.display === "block") {
         cashapp.style.display = "none";
+        cashappBody.style.border = "none";
     }
     else 
     {
@@ -114,6 +127,7 @@ function cashapp() {
         robinhood.style.display = "none";
         webull.style.display = "none";
         cashapp.style.display = "block";
+        cashappBody.style.border = "dashed white 1px";
     }  
 }
 function code() {
@@ -170,27 +184,33 @@ function sponsors() {
 function WJ() {
     var WJ = document.getElementById("WJ-article"); 
     var fetch = document.getElementById("fetch-article");
+    var wjBody = document.getElementById("wj");
 
     if(WJ.style.display === "block") {
         WJ.style.display = "none";
+        wjBody.style.border = "none";
     }
     else 
     {
         WJ.style.display = "block";
         fetch.style.display = "none";
+        wjBody.style.border = "dashed white 2px";
     }
 }
 function fetch() {
     var WJ = document.getElementById("WJ-article"); 
     var fetch = document.getElementById("fetch-article");
+    var fetchBody = document.getElementById("fetch");
 
     if(fetch.style.display === "block") {
         fetch.style.display = "none";
+        fetchBody.style.border = "none";
     }
     else 
     {
         fetch.style.display = "block";
         WJ.style.display = "none";
+        fetchBody.style.border = "dashed white 2px";
     } 
 }
 function connect() {
