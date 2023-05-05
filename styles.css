@@ -81,7 +81,7 @@ img {
     text-decoration: none;
     margin-right: .75rem;
 }
-.finance, .code, .connect, .sponsors, .social {
+.finance, .code, .connect, .sponsors, .social, .video {
     display: none;
 }
 .code-body {
@@ -304,6 +304,9 @@ img {
         width: 69%;
     }
     .social-media-body {
+        width: 69%;
+    }
+    .video-media-body {
         width: 69%;
     }
     .github-text, .gitlab-text, .stackoverflow-text, .WJ-text {
