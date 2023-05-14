@@ -62,7 +62,7 @@ img {
     line-height: 0;
     padding: 0;
 }
-    .top-section {
+.top-section {
         color: white;
         font-size: 20px;
         font-family: 'Times New Roman', Times, serif;
@@ -90,7 +90,8 @@ img {
     margin-right: auto;
     display: flex;
     flex-direction: row;
-    background-color: purple;
+    background-color: white;
+    border: solid purple 5px;
     width: 25%;
     border-radius: 5px;
     margin-bottom: 1.5rem;
@@ -117,7 +118,7 @@ img {
     font-size: 16px;
     line-height: 1px;
     align-self: center;
-    color: white;
+    color: black;
     text-decoration: none;
     font-family: 'Times New Roman', Times, serif;
 }
@@ -131,7 +132,7 @@ img {
     font-size: 16px;
     line-height: 1px;
     align-self: center;
-    color: white;
+    color: black;
     text-decoration: none;
     font-family: 'Times New Roman', Times, serif; 
 }
@@ -144,7 +145,7 @@ img {
     font-size: 16px;
     line-height: 1px;
     align-self: center;
-    color: white;
+    color: black;
     text-decoration: none;
     font-family: 'Times New Roman', Times, serif; 
 }

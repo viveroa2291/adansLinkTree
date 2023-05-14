@@ -4,7 +4,8 @@
     margin-right: auto;
     display: flex;
     flex-direction: row;
-    background-color: darkgrey;
+    background-color: white;
+    border: solid darkgray 5px;
     width: 25%;
     border-radius: 5px;
     margin-bottom: 1.5rem;
@@ -38,7 +39,7 @@
     font-size: 16px;
     line-height: 1px;
     align-self: center;
-    color: white;
+    color: black;
     text-decoration: none;
     font-family: 'Times New Roman', Times, serif;
 }

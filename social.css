@@ -4,7 +4,9 @@
     margin-right: auto;
     display: flex;
     flex-direction: row;
-    background-color: rgb(174, 95, 174);
+    /* background-color: rgb(174, 95, 174); */
+    background-color: white;
+    border: solid rgb(174, 95, 174) 5px; 
     width: 25%;
     border-radius: 5px;
     margin-bottom: 1.5rem;
@@ -12,18 +14,25 @@
     padding-top: 2px;
     padding-bottom: 2px;
 }
+/*
 .social-media-body:hover>.twitter-text, .social-media-body:hover>.instagram-text, .social-media-body:hover>.tiktok-text, .social-media-body:hover>.snapchat-text, .social-media-body:hover>.facebook-text, .social-media-body:hover>.discord-text, .social-media-body:hover>.robinhood-text, .social-media-body:hover>.telegram-text, .social-media-body:hover>.vsco-text, .social-media-body:hover>.venmo-text, .social-media-body:hover>.webull-text, .social-media-body:hover>.youtube-text, .social-media-body:hover>.twitch-text {
     color: #000000;
 }
+*/
 .social-media-body:hover .tiktok, .social-media-body:hover{
     background-color: white;
     cursor: pointer;
     transition: .75s;
 }
+/*
 .social-media-body:hover .vsco-icon, .vsco-icon:hover{
     fill: #000000;
     cursor: pointer;
     transition: .75s;
+}
+*/
+.vsco-icon {
+    fill: black;
 }
 .twitter {
     margin-left: 1rem;
@@ -39,7 +48,7 @@
     margin-left: 1rem;
     line-height: 1px;
     align-self: center;
-    color: white;
+    color: black;
     text-decoration: none;
     font-size: 16px;
     font-family: 'Times New Roman', Times, serif;  
@@ -57,7 +66,7 @@
     font-size: 16px;
     line-height: 1px;
     align-self: center;
-    color: white;
+    color: black;
     text-decoration: none;
     font-family: 'Times New Roman', Times, serif;
 }

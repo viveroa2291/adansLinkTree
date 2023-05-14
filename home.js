@@ -33,13 +33,13 @@ function robinhood() {
 
     if (robinhood.style.display === "block") {
         robinhood.style.display = "none";
-        robinhoodBody.style.border = "none";
+        // robinhoodBody.style.border = "none";
     }
     else {
         robinhood.style.display = "block";
         webull.style.display = "none";
         coinbase.style.display = "none";
-        robinhoodBody.style.border = "dashed white 1px";
+       // robinhoodBody.style.border = "dashed white 1px";
     }
 }
 function myRotate(x) {    
@@ -55,7 +55,7 @@ function webull() {
 
     if(webull.style.display === "block") {
         webull.style.display = "none";
-        webullBody.style.border = "none";
+        // webullBody.style.border = "none";
     }
     else 
     {
@@ -64,7 +64,7 @@ function webull() {
         coinbase.style.display = "none";
         pi.style.display = "none";
         cashapp.style.display = "none";
-        webullBody.style.border = "dashed white 1px";
+        // webullBody.style.border = "dashed white 1px";
     }
 }
 function coinbase() {
@@ -76,7 +76,7 @@ function coinbase() {
     var coinbaseBody = document.getElementById("coinbase");
     if(coinbase.style.display === "block") {
         coinbase.style.display = "none";
-        coinbaseBody.style.border = "none";        
+        // coinbaseBody.style.border = "none";        
     }
     else 
     {
@@ -85,7 +85,7 @@ function coinbase() {
         webull.style.display = "none";
         pi.style.display = "none";
         cashapp.style.display = "none";
-        coinbaseBody.style.border = "dashed white 1px";
+        // coinbaseBody.style.border = "dashed white 1px";
     }
 }
 function pi() {
@@ -98,7 +98,7 @@ function pi() {
 
     if(pi.style.display === "block") {
         pi.style.display = "none";
-        pi.style.border = "none";
+        // pi.style.border = "none";
     }
     else 
     {
@@ -107,7 +107,7 @@ function pi() {
         robinhood.style.display = "none";
         webull.style.display = "none";
         cashapp.style.display = "none";
-        pi.style.border = "dashed white 1px";
+       // pi.style.border = "dashed white 1px";
     } 
 }
 function cashapp() {
@@ -120,7 +120,7 @@ function cashapp() {
 
     if(cashapp.style.display === "block") {
         cashapp.style.display = "none";
-        cashappBody.style.border = "none";
+        // cashappBody.style.border = "none";
     }
     else 
     {
@@ -129,7 +129,7 @@ function cashapp() {
         robinhood.style.display = "none";
         webull.style.display = "none";
         cashapp.style.display = "block";
-        cashappBody.style.border = "dashed white 1px";
+        // cashappBody.style.border = "dashed white 1px";
     }  
 }
 function code() {
@@ -194,13 +194,13 @@ function WJ() {
 
     if(WJ.style.display === "block") {
         WJ.style.display = "none";
-        wjBody.style.border = "none";
+        // wjBody.style.border = "none";
     }
     else 
     {
         WJ.style.display = "block";
         fetch.style.display = "none";
-        wjBody.style.border = "dashed white 2px";
+        // wjBody.style.border = "dashed white 2px";
     }
 }
 function fetch() {
@@ -210,13 +210,13 @@ function fetch() {
 
     if(fetch.style.display === "block") {
         fetch.style.display = "none";
-        fetchBody.style.border = "none";
+       // fetchBody.style.border = "none";
     }
     else 
     {
         fetch.style.display = "block";
         WJ.style.display = "none";
-        fetchBody.style.border = "dashed white 2px";
+       // fetchBody.style.border = "dashed white 2px";
     } 
 }
 function connect() {

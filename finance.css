@@ -4,7 +4,11 @@
     margin-right: auto;
     display: flex;
     flex-direction: row;
+    /*
     background-color: rgb(0, 100, 0);
+    */
+    background-color: white;
+    border: solid rgb(0, 100, 0) 5px;
     width: 25%;
     border-radius: 5px;
     height: 50px;
@@ -28,7 +32,7 @@
     margin-right: auto;
     margin-bottom: .5rem;
     border-radius: 2px;
-    background-color: lime;
+    background-color: lightgreen;
     color: black;
     font-size: 16px;
     padding: 5px 0;
@@ -52,7 +56,7 @@
 .robinhood-text{
     margin-left: 5px;
     align-self: center;
-    color: white;
+    color: black;
     text-decoration: none;
     font-size: 15px;
     font-family: 'Times New Roman', Times, serif;
@@ -64,7 +68,7 @@
 .webull-text {
     margin-left: 2.5rem;
     align-self: center;
-    color: white;
+    color: black;
     font-family: 'Times New Roman', Times, serif;
     text-decoration: none;
     font-size: 15px;
@@ -80,37 +84,37 @@
 .coinbase-text {
     margin-left: 2rem;
     align-self: center;
-    color: white;
+    color: black;
     font-family: 'Times New Roman', Times, serif;
     text-decoration: none;
     font-size: 15px; 
 }
 .pi {
-    margin-left: 2rem;
+    margin-left: 1.5rem;
 }
 .pi-text {
     margin-left: 2rem;
     align-self: center;
-    color: white;
+    color: black;
     font-family: 'Times New Roman', Times, serif;
     text-decoration: none;
     font-size: 15px;
 }
 .cashapp {
-    margin-left: 2rem;
+    margin-left: 1.5rem;
     align-self: center;
     height: 40px;
 }
 .cashapp-text {
     margin-left: 2.5rem;
     align-self: center;
-    color: white;
+    color: black;
     font-family: 'Times New Roman', Times, serif;
     text-decoration: none;
     font-size: 15px; 
 }
 .venmo {
-    margin-left: 2rem;
+    margin-left: 1.5rem;
     height: 40px;
     align-self: center;
     color: blue;
@@ -119,7 +123,7 @@
     margin-left: 3rem;
     line-height: 1px;
     align-self: center;
-    color: white;
+    color: black;
     text-decoration: none;
     font-size: 16px;
     font-family: 'Times New Roman', Times, serif; 
