@@ -9,5 +9,4 @@ function pauseAudio() {
         x.play();
         musicButton.innerText = "Pause Audio";
     }
-    
 }
