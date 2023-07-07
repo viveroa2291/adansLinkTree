@@ -19,10 +19,10 @@
     </header>
     <main>
         <section>
-            
-            <audio controls autoplay class="music"> 
-                <source src="music/City in the Sky - YANDHI.MP3" type="audio/mpeg"> 
-            </audio>
+            <audio id="music" class="music" controls autoplay loop > 
+                <source src="music/alarm.mp3" type="audio/mpeg"> 
+            </audio>  
+            <button id="music-button" onclick="pauseAudio()" type="button">No Audio</button>
             <div class="USA-flag" id="usa-flag">
                 <div class="USA-stars">
                     <div class="star-row">
@@ -573,3 +573,4 @@
 </html>
 <script src="date.js"></script>
 <script src="home.js"></script>
+<script src="music.js"></script>

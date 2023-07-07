@@ -286,6 +286,9 @@ img {
 .change .hr3 {
     transform: rotate(45deg) translate(-5px, -8px); 
 }
+.music {
+    display: none;
+}
 @keyframes flying {
     from {
         bottom: 0;
