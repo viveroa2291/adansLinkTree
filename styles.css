@@ -374,6 +374,7 @@ img {
         width: 25%;
     }
     .movie-section {
+        height: 300px;
         width: 300px;
     }
 }
