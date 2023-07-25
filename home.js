@@ -5,7 +5,8 @@ function finance() {
     var sponsors = document.getElementById("sponsors");
     var connect = document.getElementById("connect");
     var video = document.getElementById("video");
-    var project = document.getElementById("projects")
+    var project = document.getElementById("projects");
+    var movie = document.getElementById("movie"); 
     var socialMediaHeaders = document.getElementById("social-media-headers");
 
     var block = document.getElementById("block");
@@ -25,6 +26,7 @@ function finance() {
     sponsors.style.display = "none";
     video.style.display = "none";
     project.style.display = "none";
+    movie.style.display = "none";
     socialMediaHeaders.style.display = "none";
     
 }
@@ -142,7 +144,8 @@ function code() {
     var sponsors = document.getElementById("sponsors");
     var connect = document.getElementById("connect");
     var video = document.getElementById("video");
-    var project = document.getElementById("projects")
+    var project = document.getElementById("projects");
+    var movie = document.getElementById("movie"); 
     var socialMediaHeaders = document.getElementById("social-media-headers");
 
 
@@ -163,6 +166,7 @@ function code() {
     sponsors.style.display = "none";
     video.style.display = "none";
     project.style.display = "none";
+    movie.style.display = "none";
     socialMediaHeaders.style.display = "none";
 }
 function sponsors() {
@@ -172,7 +176,8 @@ function sponsors() {
     var sponsors = document.getElementById("sponsors");
     var connect = document.getElementById("connect");
     var video = document.getElementById("video");
-    var project = document.getElementById("projects")
+    var project = document.getElementById("projects");
+    var movie = document.getElementById("movie"); 
     var socialMediaHeaders = document.getElementById("social-media-headers");
 
     var block = document.getElementById("block");
@@ -192,6 +197,7 @@ function sponsors() {
     sponsors.style.display = "block";
     video.style.display = "none";
     project.style.display = "none";
+    movie.style.display = "none";
     socialMediaHeaders.style.display = "none";
 }
 function WJ() {
@@ -233,7 +239,8 @@ function connect() {
     var sponsors = document.getElementById("sponsors");
     var connect = document.getElementById("connect");
     var video = document.getElementById("video");
-    var project = document.getElementById("projects")
+    var project = document.getElementById("projects");
+    var movie = document.getElementById("movie"); 
     var socialMediaHeaders = document.getElementById("social-media-headers");
 
     var block = document.getElementById("block");
@@ -254,6 +261,7 @@ function connect() {
     sponsors.style.display = "none";
     video.style.display = "none"; 
     project.style.display = "none";
+    movie.style.display = "none";
     socialMediaHeaders.style.display = "none";
 }
 function social() {
@@ -263,7 +271,8 @@ function social() {
     var sponsors = document.getElementById("sponsors");
     var connect = document.getElementById("connect");
     var video = document.getElementById("video");
-    var project = document.getElementById("projects")
+    var project = document.getElementById("projects");
+    var movie = document.getElementById("movie"); 
     var socialMediaHeaders = document.getElementById("social-media-headers");
 
     var block = document.getElementById("block");
@@ -283,6 +292,7 @@ function social() {
     sponsors.style.display = "none";
     video.style.display = "none"; 
     project.style.display = "none";
+    movie.style.display = "none";
     socialMediaHeaders.style.display = "none";
 }
 function video() {
@@ -292,7 +302,8 @@ function video() {
     var sponsors = document.getElementById("sponsors");
     var connect = document.getElementById("connect");
     var video = document.getElementById("video");
-    var project = document.getElementById("projects")
+    var project = document.getElementById("projects");
+    var movie = document.getElementById("movie"); 
     var socialMediaHeaders = document.getElementById("social-media-headers");
 
     var block = document.getElementById("block");
@@ -312,6 +323,7 @@ function video() {
     sponsors.style.display = "none";
     video.style.display = "block";
     project.style.display = "none";
+    movie.style.display = "none";
     socialMediaHeaders.style.display = "none"; 
 }
 function projects() {
@@ -321,8 +333,10 @@ function projects() {
     var sponsors = document.getElementById("sponsors");
     var connect = document.getElementById("connect");
     var video = document.getElementById("video");
-    var project = document.getElementById("projects")
+    var project = document.getElementById("projects");
     var socialMediaHeaders = document.getElementById("social-media-headers");
+    var movie = document.getElementById("movie"); 
+
 
     var block = document.getElementById("block");
     var block2 = document.getElementById("block2");
@@ -341,5 +355,6 @@ function projects() {
     sponsors.style.display = "none";
     video.style.display = "none";
     project.style.display = "block";
+    movie.style.display = "none";
     socialMediaHeaders.style.display = "none";  
 }

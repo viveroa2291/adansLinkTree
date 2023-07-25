@@ -20,6 +20,11 @@ header>a:hover {
     right: 1rem;
     top: 1rem;
 }
+.movie-button {
+    position: absolute;
+    right: 6.5rem;
+    top: 1rem;
+}
 section {
     margin-top: 3rem;
     display: block;
@@ -314,6 +319,10 @@ img {
 .music {
     display: none;
 }
+.movie-section {
+    margin-top: 1rem;
+    width: 500px;
+}
 @keyframes flying {
     from {
         bottom: 0;
@@ -363,5 +372,8 @@ img {
     } 
     hr {
         width: 25%;
+    }
+    .movie-section {
+        width: 300px;
     }
 }

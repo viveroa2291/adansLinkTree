@@ -17,6 +17,7 @@
 <body>
     <header>
         <button class="music-button" id="music-button" onclick="pauseAudio()" type="button">Play Audio</button>
+        <button class="movie-button" id="hide-movie-button" onclick="hidemovie();">Hide Movie</button>
         <a class="home-button" href="https://viveroa2291.github.io/adansLinkTree/">Home</a>
     </header>
     <main>
@@ -154,6 +155,12 @@
             <div class="social-media-headers">
                 <a class="top-section" href="#projects" onclick="projects()">Projects</a>
             </div>
+            <div id="movie">
+                <video class="movie-section" controls>
+                    <source src="videos/video1.mp4" type="video/mp4">
+                </video>  
+            </div>
+            
             <div class="social-media-headers" id="social-media-headers">
                 <p class="stackoverflow"><a class="fa fa-stack-overflow stackoverflow" href="https://stackoverflow.com/users/10572727/adan-vivero"></a></p>
                 <p class="youtube"><a href="https://www.youtube.com/channel/UC44ZQ3MDGUBNPA0ZFsY8Lfg" class="fa fa-youtube footer-links youtube"></a></p>            
@@ -601,4 +608,4 @@
 </html>
 <script src="date.js"></script>
 <script src="home.js"></script>
-<script src="music.js"></script>
+<script src="media.js"></script>
