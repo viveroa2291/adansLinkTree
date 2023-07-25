@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="sponsors.css">
     <link rel="stylesheet" href="social.css">
     <link rel="stylesheet" href="video.css">
+    <link rel="stylesheet" href="project.css">
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="star.css">
     <link rel="stylesheet" href="flag.css">
@@ -15,14 +16,15 @@
 </head>
 <body>
     <header>
-
+        <button class="music-button" id="music-button" onclick="pauseAudio()" type="button">Play Audio</button>
+        <a class="home-button" href="https://viveroa2291.github.io/adansLinkTree/">Home</a>
     </header>
     <main>
         <section>
             <audio id="music" class="music" controls autoplay loop > 
                 <source src="music/alarm.mp3" type="audio/mpeg"> 
             </audio>  
-            <button id="music-button" onclick="pauseAudio()" type="button">Play Audio</button>
+            <!-- <button id="music-button" onclick="pauseAudio()" type="button">Play Audio</button> -->
             <div class="USA-flag" id="usa-flag">
                 <div class="USA-stars">
                     <div class="star-row">
@@ -132,22 +134,25 @@
                 <p class="fa fa-envelope"> adan.vivero1@gmail.com</p>            
             </div>
             <div class="social-media-headers">       
-                <p class="separators">|</p>
+                <!--<p class="separators">|</p> -->  
                 <a class="top-section" href="#finance" onclick="finance();">Finance</a>  
-                <p class="separators">|</p>
+                <!--<p class="separators">|</p> -->  
                 <a class="top-section" href="#code" onclick="code();">Code</a>
-                <p class="separators">|</p>
+                <!--<p class="separators">|</p> -->  
                 <a class="top-section" href="#sponsors" onclick="sponsors();">Sponsors</a>
-                <p class="separators">|</p>
+                <!--<p class="separators">|</p> -->  
             </div>
             <div class="social-media-headers"> 
-                <p class="separators">|</p>
+                <!--<p class="separators">|</p> -->  
                 <a class="top-section" href="#connect" onclick="connect();">Connect</a>
-                <p class="separators">|</p>
+                <!--<p class="separators">|</p> -->  
                 <a class="top-section" href="#social" onclick="social();">Social</a>
-                <p class="separators">|</p>
+                <!--<p class="separators">|</p> -->  
                 <a class="top-section" href="#video" onclick="video();">Media</a>
-                <p class="separators">|</p>
+                <!--<p class="separators">|</p> -->  
+            </div>
+            <div class="social-media-headers">
+                <a class="top-section" href="#projects" onclick="projects()">Projects</a>
             </div>
             <div class="social-media-headers" id="social-media-headers">
                 <p class="stackoverflow"><a class="fa fa-stack-overflow stackoverflow" href="https://stackoverflow.com/users/10572727/adan-vivero"></a></p>
@@ -155,9 +160,7 @@
                 <p class="github"><a href="https://github.com/viveroa2291" class="github"><i class="fa fa-github"></i></a></p>            
                 <p class="linkedin"><a href="https://www.linkedin.com/in/adan-vivero-a93970156/" class="fa fa-linkedin linkedin"></a><a href="https://www.linkedin.com/in/adan-vivero-a93970156/"></a></p>
             </div>
-            <!-- 
-                Finance Section 
-            -->
+            <!--  Finance Section -->
             <section class="finance" id="finance">
                 <div class="finance-body" id="robinhood">
                     <svg class="robinhood" clip-rule="evenodd" fill-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="2" viewBox="0 0 560 400" xmlns="http://www.w3.org/2000/svg"><g transform="scale(3.35329 6.34921)">
@@ -556,7 +559,32 @@
                 </svg>
                 <a href="https://www.twitch.tv/adxadan" class="twitch-text">Twitch: adxadan</a>
             </div>
-        </section>      
+        </section>   
+        <section class="projects" id="projects">
+            <div class="project-body">
+                <?xml version="1.0" encoding="utf-8"?>
+                    <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 1920 1080" style="enable-background:new 0 0 1920 1080;" xml:space="preserve">
+                    <style type="text/css">
+                        .st0{fill:#FFFF00;stroke:#000000;stroke-width:2;stroke-miterlimit:10;}
+                        .st1{fill:#FFFF00;stroke:#000000;stroke-width:0.75;stroke-miterlimit:10;}
+                        .st2{font-family:'AcademyEngravedLetPlain';}
+                        .st3{font-size:75.7451px;}
+                        .st4{fill:#ED1C24;stroke:#000000;stroke-width:0.75;stroke-miterlimit:10;}
+                        .st5{font-size:148.535px;}
+                        .st6{fill:none;stroke:#000000;stroke-width:3;stroke-miterlimit:10;}
+                    </style>
+                    <path class="st0" d="M958.37,600l259.86,0c0-114.1-117.31-208-259.86-208c-142.04,0-259.11,93.22-259.85,206.91L958.37,600z"/>
+                    <text transform="matrix(1 0 0 1 653.9023 657.5107)" class="st1 st2 st3">MEXICAN GRILL</text>
+                    <text transform="matrix(1 0 0 1 634.4297 555.2188)" class="st4 st2 st5">CANCUN </text>
+                    <rect x="548" y="354" class="st6" width="823" height="327"/>
+                    </svg>
+                <a href="https://viveroa2291.github.io/Cancun/home" class="cancun-text">Cancun Mexican Grill</a>
+            </div> 
+            <div class="project-body">
+                <img class="phone-image" src="images/phone.png" alt="Me with my phone">
+                <a href="https://viveroa2291.github.io/Developer-Site/" class="developer-text">Developer Site</a>
+            </div>   
+        </section>   
         <p class="bottom-text">Code, Social Media, Cringe</p>
         <p class="bottom-text created">Created by Adan Vivero ©</p>
 

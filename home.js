@@ -5,6 +5,7 @@ function finance() {
     var sponsors = document.getElementById("sponsors");
     var connect = document.getElementById("connect");
     var video = document.getElementById("video");
+    var project = document.getElementById("projects")
     var socialMediaHeaders = document.getElementById("social-media-headers");
 
     var block = document.getElementById("block");
@@ -23,7 +24,9 @@ function finance() {
     social.style.display = "none";
     sponsors.style.display = "none";
     video.style.display = "none";
+    project.style.display = "none";
     socialMediaHeaders.style.display = "none";
+    
 }
 function robinhood() {
     var robinhood = document.getElementById("robinhood-article");
@@ -139,6 +142,7 @@ function code() {
     var sponsors = document.getElementById("sponsors");
     var connect = document.getElementById("connect");
     var video = document.getElementById("video");
+    var project = document.getElementById("projects")
     var socialMediaHeaders = document.getElementById("social-media-headers");
 
 
@@ -158,6 +162,7 @@ function code() {
     social.style.display = "none";
     sponsors.style.display = "none";
     video.style.display = "none";
+    project.style.display = "none";
     socialMediaHeaders.style.display = "none";
 }
 function sponsors() {
@@ -167,6 +172,7 @@ function sponsors() {
     var sponsors = document.getElementById("sponsors");
     var connect = document.getElementById("connect");
     var video = document.getElementById("video");
+    var project = document.getElementById("projects")
     var socialMediaHeaders = document.getElementById("social-media-headers");
 
     var block = document.getElementById("block");
@@ -185,6 +191,7 @@ function sponsors() {
     social.style.display = "none";
     sponsors.style.display = "block";
     video.style.display = "none";
+    project.style.display = "none";
     socialMediaHeaders.style.display = "none";
 }
 function WJ() {
@@ -226,6 +233,7 @@ function connect() {
     var sponsors = document.getElementById("sponsors");
     var connect = document.getElementById("connect");
     var video = document.getElementById("video");
+    var project = document.getElementById("projects")
     var socialMediaHeaders = document.getElementById("social-media-headers");
 
     var block = document.getElementById("block");
@@ -245,6 +253,7 @@ function connect() {
     social.style.display = "none";
     sponsors.style.display = "none";
     video.style.display = "none"; 
+    project.style.display = "none";
     socialMediaHeaders.style.display = "none";
 }
 function social() {
@@ -254,6 +263,7 @@ function social() {
     var sponsors = document.getElementById("sponsors");
     var connect = document.getElementById("connect");
     var video = document.getElementById("video");
+    var project = document.getElementById("projects")
     var socialMediaHeaders = document.getElementById("social-media-headers");
 
     var block = document.getElementById("block");
@@ -272,6 +282,7 @@ function social() {
     social.style.display = "block";
     sponsors.style.display = "none";
     video.style.display = "none"; 
+    project.style.display = "none";
     socialMediaHeaders.style.display = "none";
 }
 function video() {
@@ -281,6 +292,7 @@ function video() {
     var sponsors = document.getElementById("sponsors");
     var connect = document.getElementById("connect");
     var video = document.getElementById("video");
+    var project = document.getElementById("projects")
     var socialMediaHeaders = document.getElementById("social-media-headers");
 
     var block = document.getElementById("block");
@@ -299,5 +311,35 @@ function video() {
     social.style.display = "none";
     sponsors.style.display = "none";
     video.style.display = "block";
+    project.style.display = "none";
     socialMediaHeaders.style.display = "none"; 
+}
+function projects() {
+    var finance = document.getElementById("finance");
+    var code = document.getElementById("code");
+    var social = document.getElementById("social");
+    var sponsors = document.getElementById("sponsors");
+    var connect = document.getElementById("connect");
+    var video = document.getElementById("video");
+    var project = document.getElementById("projects")
+    var socialMediaHeaders = document.getElementById("social-media-headers");
+
+    var block = document.getElementById("block");
+    var block2 = document.getElementById("block2");
+    var block3 = document.getElementById("block3");
+    var block4 = document.getElementById("block4");
+
+    block.style.backgroundColor = "orange";
+    block2.style.backgroundColor = "orange";
+    block3.style.backgroundColor = "orange";
+    block4.style.backgroundColor = "orange";
+
+    finance.style.display = "none";
+    connect.style.display = "none";
+    code.style.display = "none";
+    social.style.display = "none";
+    sponsors.style.display = "none";
+    video.style.display = "none";
+    project.style.display = "block";
+    socialMediaHeaders.style.display = "none";  
 }
