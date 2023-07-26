@@ -7,6 +7,7 @@ function finance() {
     var video = document.getElementById("video");
     var project = document.getElementById("projects");
     var movie = document.getElementById("movie"); 
+    var movieButton = document.getElementById("hide-movie-button");
     var socialMediaHeaders = document.getElementById("social-media-headers");
 
     var block = document.getElementById("block");
@@ -28,7 +29,13 @@ function finance() {
     project.style.display = "none";
     movie.style.display = "none";
     socialMediaHeaders.style.display = "none";
-    
+   
+    if(movie.style.display = "none") {
+        movieButton.innerText = "Show Movie";
+    }
+    else {
+        movieButton.innerText = "Hide Movie"; 
+    }
 }
 function robinhood() {
     var robinhood = document.getElementById("robinhood-article");
@@ -146,6 +153,7 @@ function code() {
     var video = document.getElementById("video");
     var project = document.getElementById("projects");
     var movie = document.getElementById("movie"); 
+    var movieButton = document.getElementById("hide-movie-button");
     var socialMediaHeaders = document.getElementById("social-media-headers");
 
 
@@ -168,6 +176,13 @@ function code() {
     project.style.display = "none";
     movie.style.display = "none";
     socialMediaHeaders.style.display = "none";
+
+    if(movie.style.display = "none") {
+        movieButton.innerText = "Show Movie";
+    }
+    else {
+        movieButton.innerText = "Hide Movie"; 
+    }
 }
 function sponsors() {
     var finance = document.getElementById("finance");
@@ -178,6 +193,7 @@ function sponsors() {
     var video = document.getElementById("video");
     var project = document.getElementById("projects");
     var movie = document.getElementById("movie"); 
+    var movieButton = document.getElementById("hide-movie-button");
     var socialMediaHeaders = document.getElementById("social-media-headers");
 
     var block = document.getElementById("block");
@@ -199,6 +215,13 @@ function sponsors() {
     project.style.display = "none";
     movie.style.display = "none";
     socialMediaHeaders.style.display = "none";
+
+    if(movie.style.display = "none") {
+        movieButton.innerText = "Show Movie";
+    }
+    else {
+        movieButton.innerText = "Hide Movie"; 
+    }
 }
 function WJ() {
     var WJ = document.getElementById("WJ-article"); 
@@ -241,6 +264,7 @@ function connect() {
     var video = document.getElementById("video");
     var project = document.getElementById("projects");
     var movie = document.getElementById("movie"); 
+    var movieButton = document.getElementById("hide-movie-button");
     var socialMediaHeaders = document.getElementById("social-media-headers");
 
     var block = document.getElementById("block");
@@ -263,6 +287,13 @@ function connect() {
     project.style.display = "none";
     movie.style.display = "none";
     socialMediaHeaders.style.display = "none";
+
+    if(movie.style.display = "none") {
+        movieButton.innerText = "Show Movie";
+    }
+    else {
+        movieButton.innerText = "Hide Movie"; 
+    }
 }
 function social() {
     var finance = document.getElementById("finance");
@@ -273,6 +304,7 @@ function social() {
     var video = document.getElementById("video");
     var project = document.getElementById("projects");
     var movie = document.getElementById("movie"); 
+    var movieButton = document.getElementById("hide-movie-button");
     var socialMediaHeaders = document.getElementById("social-media-headers");
 
     var block = document.getElementById("block");
@@ -294,6 +326,13 @@ function social() {
     project.style.display = "none";
     movie.style.display = "none";
     socialMediaHeaders.style.display = "none";
+
+    if(movie.style.display = "none") {
+        movieButton.innerText = "Show Movie";
+    }
+    else {
+        movieButton.innerText = "Hide Movie"; 
+    }
 }
 function video() {
     var finance = document.getElementById("finance");
@@ -303,7 +342,8 @@ function video() {
     var connect = document.getElementById("connect");
     var video = document.getElementById("video");
     var project = document.getElementById("projects");
-    var movie = document.getElementById("movie"); 
+    var movie = document.getElementById("movie");
+    var movieButton = document.getElementById("hide-movie-button"); 
     var socialMediaHeaders = document.getElementById("social-media-headers");
 
     var block = document.getElementById("block");
@@ -325,6 +365,13 @@ function video() {
     project.style.display = "none";
     movie.style.display = "none";
     socialMediaHeaders.style.display = "none"; 
+
+    if(movie.style.display = "none") {
+        movieButton.innerText = "Show Movie";
+    }
+    else {
+        movieButton.innerText = "Hide Movie"; 
+    }
 }
 function projects() {
     var finance = document.getElementById("finance");
@@ -336,7 +383,7 @@ function projects() {
     var project = document.getElementById("projects");
     var socialMediaHeaders = document.getElementById("social-media-headers");
     var movie = document.getElementById("movie"); 
-
+    var movieButton = document.getElementById("hide-movie-button");
 
     var block = document.getElementById("block");
     var block2 = document.getElementById("block2");
@@ -357,4 +404,11 @@ function projects() {
     project.style.display = "block";
     movie.style.display = "none";
     socialMediaHeaders.style.display = "none";  
+
+    if(movie.style.display = "none") {
+        movieButton.innerText = "Show Movie";
+    }
+    else {
+        movieButton.innerText = "Hide Movie"; 
+    }
 }
