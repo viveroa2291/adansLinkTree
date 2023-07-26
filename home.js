@@ -31,10 +31,10 @@ function finance() {
     socialMediaHeaders.style.display = "none";
    
     if(movie.style.display = "none") {
-        movieButton.innerText = "Show Movie";
+        movieButton.innerText = "Show Media";
     }
     else {
-        movieButton.innerText = "Hide Movie"; 
+        movieButton.innerText = "Hide Media"; 
     }
 }
 function robinhood() {
@@ -178,10 +178,10 @@ function code() {
     socialMediaHeaders.style.display = "none";
 
     if(movie.style.display = "none") {
-        movieButton.innerText = "Show Movie";
+        movieButton.innerText = "Show Media";
     }
     else {
-        movieButton.innerText = "Hide Movie"; 
+        movieButton.innerText = "Hide Media"; 
     }
 }
 function sponsors() {
@@ -217,10 +217,10 @@ function sponsors() {
     socialMediaHeaders.style.display = "none";
 
     if(movie.style.display = "none") {
-        movieButton.innerText = "Show Movie";
+        movieButton.innerText = "Show Media";
     }
     else {
-        movieButton.innerText = "Hide Movie"; 
+        movieButton.innerText = "Hide Media"; 
     }
 }
 function WJ() {
@@ -289,10 +289,10 @@ function connect() {
     socialMediaHeaders.style.display = "none";
 
     if(movie.style.display = "none") {
-        movieButton.innerText = "Show Movie";
+        movieButton.innerText = "Show Media";
     }
     else {
-        movieButton.innerText = "Hide Movie"; 
+        movieButton.innerText = "Hide Media"; 
     }
 }
 function social() {
@@ -328,10 +328,10 @@ function social() {
     socialMediaHeaders.style.display = "none";
 
     if(movie.style.display = "none") {
-        movieButton.innerText = "Show Movie";
+        movieButton.innerText = "Show Media";
     }
     else {
-        movieButton.innerText = "Hide Movie"; 
+        movieButton.innerText = "Hide Media"; 
     }
 }
 function video() {
@@ -367,10 +367,10 @@ function video() {
     socialMediaHeaders.style.display = "none"; 
 
     if(movie.style.display = "none") {
-        movieButton.innerText = "Show Movie";
+        movieButton.innerText = "Show Media";
     }
     else {
-        movieButton.innerText = "Hide Movie"; 
+        movieButton.innerText = "Hide Media"; 
     }
 }
 function projects() {
@@ -406,9 +406,9 @@ function projects() {
     socialMediaHeaders.style.display = "none";  
 
     if(movie.style.display = "none") {
-        movieButton.innerText = "Show Movie";
+        movieButton.innerText = "Show Media";
     }
     else {
-        movieButton.innerText = "Hide Movie"; 
+        movieButton.innerText = "Hide Media"; 
     }
 }

@@ -1,5 +1,13 @@
 var x = document.getElementById("music");
 var musicButton = document.getElementById("music-button");
+
+if(x.play()) {
+    musicButton.innerText = "Pause Audio";
+}
+else {
+    musicButton.innerText = "Play Audio";
+}
+
 function pauseAudio() {
     if(musicButton.innerText != "Play Audio") {
         x.pause();
@@ -13,12 +21,12 @@ function pauseAudio() {
 var movie = document.getElementById("movie"); 
 var movieButton = document.getElementById("hide-movie-button");
 function hidemovie() {
-    if(movieButton.innerText === "Hide Movie") {
+    if(movieButton.innerText === "Hide Media") {
         movie.style.display = "none"; 
-        movieButton.innerText = "Show Movie";
+        movieButton.innerText = "Show Media";
     }
     else {
         movie.style.display = "block"; 
-        movieButton.innerText = "Hide Movie";
+        movieButton.innerText = "Hide Media";
     }
 }
