@@ -1,3 +1,4 @@
+/*
 window.fbAsyncInit = function() {
     FB.init({
         appId      : '327019136562567',
@@ -6,7 +7,8 @@ window.fbAsyncInit = function() {
         version    : 'v17.0'
     });
 };
-  FB.api(
+*/
+FB.api(
     '/me',
     'GET',
     {"fields":"id,name"},
