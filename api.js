@@ -8,6 +8,25 @@ window.fbAsyncInit = function() {
     });
 };
 */
+
+/*
+const request = new Request('https://graph.facebook.com/', {
+    method: 'GET'
+})
+*/ 
+
+// const response = await fetch('https://graph.facebook.com/')
+// {response } = fetch ({request})
+
+    const url = 'http://worldtimeapi.org/api/timezone/America/New_York';
+
+async function getData() {
+    const response = await fetch(url);
+    const data = await response.json();
+    console.log(data);
+}
+getData()
+/*
 FB.api(
     '/me',
     'GET',
@@ -18,3 +37,4 @@ FB.api(
             console.log('User Name: ' + response.name);
     }
 });
+*/
