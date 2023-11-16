@@ -1,19 +1,22 @@
-function finance() {
-    var finance = document.getElementById("finance");
-    var code = document.getElementById("code");
-    var social = document.getElementById("social");
-    var sponsors = document.getElementById("sponsors");
-    var connect = document.getElementById("connect");
-    var video = document.getElementById("video");
-    var project = document.getElementById("projects");
-    var movie = document.getElementById("movie"); 
-    var movieButton = document.getElementById("hide-movie-button");
-    var socialMediaHeaders = document.getElementById("social-media-headers");
+var finance = document.getElementById("finance");
+var code = document.getElementById("code");
+var social = document.getElementById("social");
+var sponsors = document.getElementById("sponsors");
+var connect = document.getElementById("connect");
+var video = document.getElementById("video");
+var project = document.getElementById("projects");
+var movie = document.getElementById("movie"); 
+var movieButton = document.getElementById("hide-movie-button");
+var socialMediaHeaders = document.getElementById("social-media-headers");
 
-    var block = document.getElementById("block");
-    var block2 = document.getElementById("block2");
-    var block3 = document.getElementById("block3");
-    var block4 = document.getElementById("block4");
+var block = document.getElementById("block");
+var block2 = document.getElementById("block2");
+var block3 = document.getElementById("block3");
+var block4 = document.getElementById("block4");
+
+var fetch = document.getElementById("fetch-article"); // Added this here because I was getting a bug 
+
+function financeBlock() {
 
     block.style.backgroundColor = "green";
     block2.style.backgroundColor = "green";
@@ -144,23 +147,7 @@ function cashapp() {
         // cashappBody.style.border = "dashed white 1px";
     }  
 }
-function code() {
-    var finance = document.getElementById("finance");
-    var code = document.getElementById("code");
-    var social = document.getElementById("social");
-    var sponsors = document.getElementById("sponsors");
-    var connect = document.getElementById("connect");
-    var video = document.getElementById("video");
-    var project = document.getElementById("projects");
-    var movie = document.getElementById("movie"); 
-    var movieButton = document.getElementById("hide-movie-button");
-    var socialMediaHeaders = document.getElementById("social-media-headers");
-
-
-    var block = document.getElementById("block");
-    var block2 = document.getElementById("block2");
-    var block3 = document.getElementById("block3");
-    var block4 = document.getElementById("block4");
+function codeBlock() {
 
     block.style.backgroundColor = "purple";
     block2.style.backgroundColor = "purple";
@@ -184,23 +171,8 @@ function code() {
         movieButton.innerText = "Hide Media"; 
     }
 }
-function sponsors() {
-    var finance = document.getElementById("finance");
-    var code = document.getElementById("code");
-    var social = document.getElementById("social");
-    var sponsors = document.getElementById("sponsors");
-    var connect = document.getElementById("connect");
-    var video = document.getElementById("video");
-    var project = document.getElementById("projects");
-    var movie = document.getElementById("movie"); 
-    var movieButton = document.getElementById("hide-movie-button");
-    var socialMediaHeaders = document.getElementById("social-media-headers");
-
-    var block = document.getElementById("block");
-    var block2 = document.getElementById("block2");
-    var block3 = document.getElementById("block3");
-    var block4 = document.getElementById("block4");
-
+function sponsorsBlock() {
+    console.log(fetch.style.display);
     block.style.backgroundColor = "yellow";
     block2.style.backgroundColor = "yellow";
     block3.style.backgroundColor = "yellow";
@@ -239,11 +211,10 @@ function WJ() {
         // wjBody.style.border = "dashed white 2px";
     }
 }
-function fetch() {
+function fetchBlock() {
     var WJ = document.getElementById("WJ-article"); 
-    var fetch = document.getElementById("fetch-article");
     var fetchBody = document.getElementById("fetch");
-
+    
     if(fetch.style.display === "block") {
         fetch.style.display = "none";
        // fetchBody.style.border = "none";
@@ -255,22 +226,7 @@ function fetch() {
        // fetchBody.style.border = "dashed white 2px";
     } 
 }
-function connect() {
-    var finance = document.getElementById("finance");
-    var code = document.getElementById("code");
-    var social = document.getElementById("social");
-    var sponsors = document.getElementById("sponsors");
-    var connect = document.getElementById("connect");
-    var video = document.getElementById("video");
-    var project = document.getElementById("projects");
-    var movie = document.getElementById("movie"); 
-    var movieButton = document.getElementById("hide-movie-button");
-    var socialMediaHeaders = document.getElementById("social-media-headers");
-
-    var block = document.getElementById("block");
-    var block2 = document.getElementById("block2");
-    var block3 = document.getElementById("block3");
-    var block4 = document.getElementById("block4");
+function connectBlock() {
 
     block.style.backgroundColor = "white";
     block2.style.backgroundColor = "white";
@@ -295,22 +251,7 @@ function connect() {
         movieButton.innerText = "Hide Media"; 
     }
 }
-function social() {
-    var finance = document.getElementById("finance");
-    var code = document.getElementById("code");
-    var social = document.getElementById("social");
-    var sponsors = document.getElementById("sponsors");
-    var connect = document.getElementById("connect");
-    var video = document.getElementById("video");
-    var project = document.getElementById("projects");
-    var movie = document.getElementById("movie"); 
-    var movieButton = document.getElementById("hide-movie-button");
-    var socialMediaHeaders = document.getElementById("social-media-headers");
-
-    var block = document.getElementById("block");
-    var block2 = document.getElementById("block2");
-    var block3 = document.getElementById("block3");
-    var block4 = document.getElementById("block4");
+function socialBlock() {
 
     block.style.backgroundColor = "rgb(174, 95, 174)";
     block2.style.backgroundColor = "rgb(174, 95, 174)";
@@ -334,22 +275,7 @@ function social() {
         movieButton.innerText = "Hide Media"; 
     }
 }
-function video() {
-    var finance = document.getElementById("finance");
-    var code = document.getElementById("code");
-    var social = document.getElementById("social");
-    var sponsors = document.getElementById("sponsors");
-    var connect = document.getElementById("connect");
-    var video = document.getElementById("video");
-    var project = document.getElementById("projects");
-    var movie = document.getElementById("movie");
-    var movieButton = document.getElementById("hide-movie-button"); 
-    var socialMediaHeaders = document.getElementById("social-media-headers");
-
-    var block = document.getElementById("block");
-    var block2 = document.getElementById("block2");
-    var block3 = document.getElementById("block3");
-    var block4 = document.getElementById("block4");
+function videoBlock() {
 
     block.style.backgroundColor = "darkgrey";
     block2.style.backgroundColor = "darkgrey";
@@ -374,21 +300,6 @@ function video() {
     }
 }
 function projects() {
-    var finance = document.getElementById("finance");
-    var code = document.getElementById("code");
-    var social = document.getElementById("social");
-    var sponsors = document.getElementById("sponsors");
-    var connect = document.getElementById("connect");
-    var video = document.getElementById("video");
-    var project = document.getElementById("projects");
-    var socialMediaHeaders = document.getElementById("social-media-headers");
-    var movie = document.getElementById("movie"); 
-    var movieButton = document.getElementById("hide-movie-button");
-
-    var block = document.getElementById("block");
-    var block2 = document.getElementById("block2");
-    var block3 = document.getElementById("block3");
-    var block4 = document.getElementById("block4");
 
     block.style.backgroundColor = "orange";
     block2.style.backgroundColor = "orange";

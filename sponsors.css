@@ -76,6 +76,9 @@
     text-decoration: none;
     font-family: Arial, Helvetica, sans-serif; 
 }
+.fetch-article>.sponsors-paragraph {
+    display: none;
+}
 @media (max-width: 1050px) {
     .sponsors-body {
         width: 75%;
