@@ -32,26 +32,35 @@
 }
 */
 .vsco-icon {
+    position: absolute;
     fill: black;
 }
 .twitter {
+    position: absolute;
     margin-left: 1rem;
     align-self: center;
 }
 .instagram-block {
+    position: absolute;
     color: brown;
     text-decoration: none;
     margin-left: 1rem;
     align-self: center;  
 }
 .instagram-text {
-    margin-left: 1rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
     line-height: 1px;
     align-self: center;
     color: black;
     text-decoration: none;
     font-size: 16px;
     font-family: 'Times New Roman', Times, serif;  
+}
+.snapchat-icon, .facebook-icon, .telegram-icon, .discord-icon {
+    position: absolute;
 }
 .tiktok {
     margin-left: .5rem;
@@ -61,8 +70,10 @@
     margin-left: 1.5rem;
     align-self: center;
 }
-.tiktok-text, .snapchat-text, .facebook-text, .discord-text, .instagram-text, .telegram-text, .vsco-text, .twitter-text {
-    margin-left: 1rem;
+.tiktok-text, .snapchat-text, .facebook-text, .discord-text, .telegram-text, .vsco-text, .twitter-text {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     font-size: 16px;
     line-height: 1px;
     align-self: center;

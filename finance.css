@@ -48,13 +48,16 @@
     margin-right: 5px;
 }
 .robinhood {
-    height: 100px;
+    position: absolute;
+    height: 75px;
     align-self: center; 
     margin-right: -20px;
     margin-left: -10px;
 }
 .robinhood-text{
-    margin-left: 5px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     align-self: center;
     color: black;
     text-decoration: none;
@@ -62,11 +65,14 @@
     font-family: 'Times New Roman', Times, serif;
 }
 .webull {
-    margin-left: 1.5rem;
+    position: absolute;
+    margin-left: 1rem;
     align-self: center;
 }
 .webull-text {
-    margin-left: 2.5rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     align-self: center;
     color: black;
     font-family: 'Times New Roman', Times, serif;
@@ -74,7 +80,8 @@
     font-size: 15px;
 }
 .coinbase {
-    margin-left: 1.5rem;
+    position: absolute;
+    margin-left: 1rem;
     align-self: center;
     margin-top: 1rem;
     width: 75px;
@@ -82,7 +89,9 @@
     margin-right: -1.5rem;
 }
 .coinbase-text {
-    margin-left: 2rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     align-self: center;
     color: black;
     font-family: 'Times New Roman', Times, serif;
@@ -90,10 +99,13 @@
     font-size: 15px; 
 }
 .pi {
+    position: absolute;
     margin-left: 1.5rem;
 }
 .pi-text {
-    margin-left: 2rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     align-self: center;
     color: black;
     font-family: 'Times New Roman', Times, serif;
@@ -101,12 +113,15 @@
     font-size: 15px;
 }
 .cashapp {
+    position: absolute;
     margin-left: 1.5rem;
     align-self: center;
     height: 40px;
 }
 .cashapp-text {
-    margin-left: 2.5rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     align-self: center;
     color: black;
     font-family: 'Times New Roman', Times, serif;
@@ -114,13 +129,16 @@
     font-size: 15px; 
 }
 .venmo {
+    position: absolute;
     margin-left: 1.5rem;
     height: 40px;
     align-self: center;
     color: blue;
 }
 .venmo-text {
-    margin-left: 3rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     line-height: 1px;
     align-self: center;
     color: black;

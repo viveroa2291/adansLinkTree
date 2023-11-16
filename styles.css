@@ -134,13 +134,16 @@ img {
     color: black;
 }
 .stackoverflow-block {
+    position: absolute;
     color: orange;
     text-decoration: none;
     margin-left: 1.5rem;
     align-self: center;
 }
 .stackoverflow-text {
-    margin-left: 1.5rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     font-size: 16px;
     line-height: 1px;
     align-self: center;
@@ -149,12 +152,15 @@ img {
     font-family: 'Times New Roman', Times, serif;
 }
 .github-block {
+    position: absolute;
     text-decoration: none;
     margin-left: 1.5rem;
     align-self: center;
 }
 .github-text {
-    margin-left: 1.5rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     font-size: 16px;
     line-height: 1px;
     align-self: center;
@@ -163,11 +169,14 @@ img {
     font-family: 'Times New Roman', Times, serif; 
 }
 .gitlab-icon {
+    position: absolute;
     margin-left: 1.5rem;
     align-self: center;
 }
 .gitlab-text {
-    margin-left: 1.5rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     font-size: 16px;
     line-height: 1px;
     align-self: center;
@@ -198,42 +207,21 @@ img {
     color: black;
 }
 .linkedin-block {
+    position: absolute;
     color: blue;
     text-decoration: none;
     margin-left: 1rem;
     align-self: center; 
 }
-.linkedin-text {
-    margin-left: 1rem;
-    line-height: 1px;
-    align-self: center;
-    color: black;
-    text-decoration: none;
-    font-size: 16px;
-    font-family: 'Times New Roman', Times, serif;  
-}
-.medium {
+.medium, .mathematics, .meta {
+    position: absolute;
     margin-left: 1rem;
     align-self: center;
 }
-.medium-text {
-    margin-left: 1rem;
-    line-height: 1px;
-    color: black;
-    text-decoration: none;
-    font-size: 16px;
-    align-self: center;
-}
-.mathematics {
-    margin-left: 1rem;
-    align-self: center;
-}
-.meta {
-    margin-left: 1rem;
-    align-self: center; 
-}
-.mathematics-text, .politics-text, .meta-text, .math-meta-text {
-    margin-left: .5rem;
+.linkedin-text, .medium-text, .mathematics-text, .politics-text, .meta-text, .math-meta-text {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     line-height: 1px;
     color: black;
     text-decoration: none;
@@ -290,9 +278,9 @@ img {
     animation: flying 25s ease-in-out alternate infinite;
 }
 .hamburger {
+    position: absolute;
     display: block;
-    margin-left: auto;
-    margin-right: .5rem;
+    right: 4rem;
     align-self: center;
 }
 .hamburger .hr1, .hr2, .hr3 {
