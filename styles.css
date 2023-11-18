@@ -40,9 +40,16 @@ section {
     border-radius: 50%;
     overflow: hidden;
 }
+/* This is the original picture
 .picture img {
     margin-top: -360px;
     margin-left: -155px;
+}
+*/
+.picture img {
+    margin-top: -225px;
+    margin-left: -375px;
+    transform: scale(.25);
 }
 h1 {
     font-size: 18px;
@@ -306,6 +313,9 @@ img {
 .movie-section {
     margin-top: 1rem;
     width: 500px;
+}
+.movie {
+    display: none;
 }
 @keyframes flying {
     from {

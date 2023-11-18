@@ -17,12 +17,12 @@ var block4 = document.getElementById("block4");
 var fetch = document.getElementById("fetch-article"); // Added this here because I was getting a bug 
 
 function financeBlock() {
-
+    /*
     block.style.backgroundColor = "green";
     block2.style.backgroundColor = "green";
     block3.style.backgroundColor = "green";
     block4.style.backgroundColor = "green";
-
+    */
     connect.style.display = "none";
     finance.style.display = "block";
     code.style.display = "none";
@@ -148,12 +148,12 @@ function cashapp() {
     }  
 }
 function codeBlock() {
-
+/*
     block.style.backgroundColor = "purple";
     block2.style.backgroundColor = "purple";
     block3.style.backgroundColor = "purple";
     block4.style.backgroundColor = "purple";
-
+*/
     connect.style.display = "none";
     finance.style.display = "none";
     code.style.display = "block";
@@ -172,12 +172,12 @@ function codeBlock() {
     }
 }
 function sponsorsBlock() {
-    console.log(fetch.style.display);
+    /*
     block.style.backgroundColor = "yellow";
     block2.style.backgroundColor = "yellow";
     block3.style.backgroundColor = "yellow";
     block4.style.backgroundColor = "yellow";
-
+*/
     connect.style.display = "none";
     finance.style.display = "none";
     code.style.display = "none";
@@ -227,12 +227,12 @@ function fetchBlock() {
     } 
 }
 function connectBlock() {
-
+/*
     block.style.backgroundColor = "white";
     block2.style.backgroundColor = "white";
     block3.style.backgroundColor = "white";
     block4.style.backgroundColor = "white";
-
+*/
 
     finance.style.display = "none";
     connect.style.display = "block";
@@ -252,12 +252,12 @@ function connectBlock() {
     }
 }
 function socialBlock() {
-
+/*
     block.style.backgroundColor = "rgb(174, 95, 174)";
     block2.style.backgroundColor = "rgb(174, 95, 174)";
     block3.style.backgroundColor = "rgb(174, 95, 174)";
     block4.style.backgroundColor = "rgb(174, 95, 174)";
-
+*/
     finance.style.display = "none";
     connect.style.display = "none";
     code.style.display = "none";
@@ -276,12 +276,12 @@ function socialBlock() {
     }
 }
 function videoBlock() {
-
+/*
     block.style.backgroundColor = "darkgrey";
     block2.style.backgroundColor = "darkgrey";
     block3.style.backgroundColor = "darkgrey";
     block4.style.backgroundColor = "darkgrey";
-
+*/
     finance.style.display = "none";
     connect.style.display = "none";
     code.style.display = "none";
@@ -300,12 +300,12 @@ function videoBlock() {
     }
 }
 function projects() {
-
+/*
     block.style.backgroundColor = "orange";
     block2.style.backgroundColor = "orange";
     block3.style.backgroundColor = "orange";
     block4.style.backgroundColor = "orange";
-
+*/
     finance.style.display = "none";
     connect.style.display = "none";
     code.style.display = "none";
