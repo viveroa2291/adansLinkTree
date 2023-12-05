@@ -1,0 +1,72 @@
+.picture {
+    animation: rolling 5s linear 1;
+}
+h1 {
+    animation: up 5s linear 1;
+}
+@keyframes rolling {
+    0% {
+        position: absolute;
+        left: 0;
+        transform: rotate(0deg);
+    }
+    25% {
+        transform: rotate(180deg); 
+        left: 10%;
+    }
+    50% {
+        transform: rotate(360deg);
+        left: 20%;
+    }
+    75% {
+        position: absolute;
+        transform: rotate(540deg);
+        left: 30%;
+    }
+    100% {
+        position: absolute;
+        left: 45%;
+        transform: rotate(720deg);
+    }
+}
+@keyframes up {
+    0% {
+        margin-top: 300px;
+    }
+    100% {
+        margin-top: 200px;
+    }
+}
+@media (max-width: 1050px) {
+    .picture {
+        animation: rollingMinimized 3s linear 1;
+    }
+    h1 {
+        animation: up 3s linear 1;
+    }
+}
+@keyframes rollingMinimized {
+    0% {
+        position: absolute;
+        left: -10%;
+        transform: rotate(0deg);
+    }
+    25% {
+        transform: rotate(90deg); 
+        left: 0%;
+    }
+    50% {
+        transform: rotate(180deg);
+        left: 10%;
+    }
+    75% {
+        position: absolute;
+        transform: rotate(270deg);
+        left: 25%;
+    }
+    100% {
+        position: absolute;
+        left: 35%;
+        transform: rotate(360deg);
+    }
+}
