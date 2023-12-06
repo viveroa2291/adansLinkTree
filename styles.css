@@ -49,7 +49,8 @@ section {
 .picture img {
     margin-top: -225px;
     margin-left: -375px;
-    transform: scale(.25);     
+    transform: scale(.25);    
+    border-radius: 50%; 
 }
 h1 {
     font-size: 18px;
