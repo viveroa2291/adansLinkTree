@@ -3,7 +3,7 @@ var musicButton = document.getElementById("music-button");
 
 // Check if the play() method returns a Promise and handle it
 let playPromise = x.play();
-
+var isPlaying;
 if (playPromise !== undefined) {
   playPromise.then(_ => {
     // The media has started playing, set isPlaying to true

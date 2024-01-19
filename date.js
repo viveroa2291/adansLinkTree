@@ -42,11 +42,12 @@ switch(days) {
         days = "Saturday";
         break;
 }
+/*
 star.style.display = "none";
 star2.style.display = "none";
 star3.style.display = "none";
 star4.style.display = "none";
-
+*/
 day.innerText = "\nHappy " + days;
 
 // For testing purposes 
