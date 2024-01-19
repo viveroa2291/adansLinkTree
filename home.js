@@ -14,7 +14,7 @@ var block2 = document.getElementById("block2");
 var block3 = document.getElementById("block3");
 var block4 = document.getElementById("block4");
 
-var fetch = document.getElementById("fetch-article"); // Added this here because I was getting a bug 
+var fetchMyRewards = document.getElementById("fetch-article"); // Added this here because I was getting a bug 
 
 function financeBlock() {
     /*
@@ -197,7 +197,7 @@ function sponsorsBlock() {
 }
 function WJ() {
     var WJ = document.getElementById("WJ-article"); 
-    var fetch = document.getElementById("fetch-article");
+    var fetchMyRewards = document.getElementById("fetch-article");
     var wjBody = document.getElementById("wj");
 
     if(WJ.style.display === "block") {
@@ -207,21 +207,21 @@ function WJ() {
     else 
     {
         WJ.style.display = "block";
-        fetch.style.display = "none";
+        fetchMyRewards.style.display = "none";
         // wjBody.style.border = "dashed white 2px";
     }
 }
-function fetchBlock() {
+function fBlock() {
     var WJ = document.getElementById("WJ-article"); 
     var fetchBody = document.getElementById("fetch");
     
-    if(fetch.style.display === "block") {
-        fetch.style.display = "none";
+    if(fetchMyRewards.style.display === "block") {
+        fetchMyRewards.style.display = "none";
        // fetchBody.style.border = "none";
     }
     else 
     {
-        fetch.style.display = "block";
+        fetchMyRewards.style.display = "block";
         WJ.style.display = "none";
        // fetchBody.style.border = "dashed white 2px";
     } 
