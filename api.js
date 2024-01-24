@@ -17,7 +17,7 @@ fetch('https://graph.facebook.com/me?fields=friends', {
 // Snapchat Key 
 var fb = document.getElementById('fb-follower'); 
 
-let token = 'EAAEpbBN4NYcBOwLjLKvrjfhgB8Lams8UIB9ZCVXlZChCraVWXOBwKwGuPqaRlcN6TJOpFAd1BfqpLbchzQHDFzNkyn53zbpctnUevZCvihRAmH9AuvAZAmkX52314O864OkVXpnSt4RgMaNGpfYZARfkH0KLpRCUbbPJgZBJBDKEVLKZBQc5A04dwNciQA8Y8SmYkwWzrEABhcZA1aHuIVfimLh1h2TYl2erwnZArD0Jv9XKjZBpqICVBTH7O83a4JNYvs5a1u5qi1xlEZD';
+let token = 'EAAEpbBN4NYcBO6v8n3U7cQ4TJF4NWYlfwNJ5B1itu5qU7bYbMX9kZAAEniWkUr5T6NncJyIjDfdnU3dTR54msJZA5oZBwpaoOwDtZAuuXoZB1whfguNPtH28VZA9rhQUchvt1hZCqWlU3YICpuNpp0TDXMifrJzVbeFDPz1aIpKZA2D28RZAZAz7rkcKqRSz6XVPDsEnMHtyKwcy31hVpLSgz6ymj3T9dk7Y9IxUT0XHGjIUBiTGl8tZAKJ04QA0F62EZAH3WZC5XK57hyVMZD';
 
 fetch('https://graph.facebook.com/me?fields=friends', {
     method: 'GET',
