@@ -1,0 +1,44 @@
+.lenses {
+    display: none;
+}
+.snapchat-lens {
+    height: 100px;
+}
+.lense-body {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: 2rem;
+    flex-shrink: calc(10%);
+}
+.lense-body>span {
+    margin-top: 1rem;
+}
+.lens-selection>h2 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.lens-links {
+    color: white;
+    border: solid white 1px;
+    padding: .5rem;
+    text-decoration: none;
+    font-size: 13px;
+}
+.lens-links:hover {
+    color: black;
+    background-color: white;
+}
+.lens-selection {
+    display: block;
+    margin-bottom: 1.5rem;
+}
+@media (max-width: 1050px) {
+    .lense-body {
+        display: block;
+    }
+    .lense-body>span {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 1rem;
+    }
+}

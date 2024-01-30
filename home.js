@@ -5,24 +5,16 @@ var sponsors = document.getElementById("sponsors");
 var connect = document.getElementById("connect");
 var video = document.getElementById("video");
 var project = document.getElementById("projects");
+var lense = document.getElementById("lenses");
 var movie = document.getElementById("movie"); 
 var movieButton = document.getElementById("hide-movie-button");
 var socialMediaHeaders = document.getElementById("social-media-headers");
 
-var block = document.getElementById("block");
-var block2 = document.getElementById("block2");
-var block3 = document.getElementById("block3");
-var block4 = document.getElementById("block4");
+var followerCount = document.getElementById('follower-count');
 
 var fetchMyRewards = document.getElementById("fetch-article"); // Added this here because I was getting a bug 
 
 function financeBlock() {
-    /*
-    block.style.backgroundColor = "green";
-    block2.style.backgroundColor = "green";
-    block3.style.backgroundColor = "green";
-    block4.style.backgroundColor = "green";
-    */
     connect.style.display = "none";
     finance.style.display = "block";
     code.style.display = "none";
@@ -31,6 +23,8 @@ function financeBlock() {
     video.style.display = "none";
     project.style.display = "none";
     movie.style.display = "none";
+    lense.style.display = "none";
+    followerCount.style.display = "none";
     socialMediaHeaders.style.display = "none";
    
     if(movie.style.display = "none") {
@@ -148,12 +142,6 @@ function cashapp() {
     }  
 }
 function codeBlock() {
-/*
-    block.style.backgroundColor = "purple";
-    block2.style.backgroundColor = "purple";
-    block3.style.backgroundColor = "purple";
-    block4.style.backgroundColor = "purple";
-*/
     connect.style.display = "none";
     finance.style.display = "none";
     code.style.display = "block";
@@ -162,6 +150,8 @@ function codeBlock() {
     video.style.display = "none";
     project.style.display = "none";
     movie.style.display = "none";
+    lense.style.display = "none";
+    followerCount.style.display = "none";
     socialMediaHeaders.style.display = "none";
 
     if(movie.style.display = "none") {
@@ -172,12 +162,6 @@ function codeBlock() {
     }
 }
 function sponsorsBlock() {
-    /*
-    block.style.backgroundColor = "yellow";
-    block2.style.backgroundColor = "yellow";
-    block3.style.backgroundColor = "yellow";
-    block4.style.backgroundColor = "yellow";
-*/
     connect.style.display = "none";
     finance.style.display = "none";
     code.style.display = "none";
@@ -186,6 +170,8 @@ function sponsorsBlock() {
     video.style.display = "none";
     project.style.display = "none";
     movie.style.display = "none";
+    lense.style.display = "none";
+    followerCount.style.display = "none";
     socialMediaHeaders.style.display = "none";
 
     if(movie.style.display = "none") {
@@ -227,13 +213,6 @@ function fBlock() {
     } 
 }
 function connectBlock() {
-/*
-    block.style.backgroundColor = "white";
-    block2.style.backgroundColor = "white";
-    block3.style.backgroundColor = "white";
-    block4.style.backgroundColor = "white";
-*/
-
     finance.style.display = "none";
     connect.style.display = "block";
     code.style.display = "none";
@@ -242,6 +221,8 @@ function connectBlock() {
     video.style.display = "none"; 
     project.style.display = "none";
     movie.style.display = "none";
+    lense.style.display = "none";
+    followerCount.style.display = "none";
     socialMediaHeaders.style.display = "none";
 
     if(movie.style.display = "none") {
@@ -252,12 +233,6 @@ function connectBlock() {
     }
 }
 function socialBlock() {
-/*
-    block.style.backgroundColor = "rgb(174, 95, 174)";
-    block2.style.backgroundColor = "rgb(174, 95, 174)";
-    block3.style.backgroundColor = "rgb(174, 95, 174)";
-    block4.style.backgroundColor = "rgb(174, 95, 174)";
-*/
     finance.style.display = "none";
     connect.style.display = "none";
     code.style.display = "none";
@@ -266,6 +241,8 @@ function socialBlock() {
     video.style.display = "none"; 
     project.style.display = "none";
     movie.style.display = "none";
+    lense.style.display = "none";
+    followerCount.style.display = "none";
     socialMediaHeaders.style.display = "none";
 
     if(movie.style.display = "none") {
@@ -276,12 +253,6 @@ function socialBlock() {
     }
 }
 function videoBlock() {
-/*
-    block.style.backgroundColor = "darkgrey";
-    block2.style.backgroundColor = "darkgrey";
-    block3.style.backgroundColor = "darkgrey";
-    block4.style.backgroundColor = "darkgrey";
-*/
     finance.style.display = "none";
     connect.style.display = "none";
     code.style.display = "none";
@@ -290,6 +261,8 @@ function videoBlock() {
     video.style.display = "block";
     project.style.display = "none";
     movie.style.display = "none";
+    lense.style.display = "none";
+    followerCount.style.display = "none";
     socialMediaHeaders.style.display = "none"; 
 
     if(movie.style.display = "none") {
@@ -300,12 +273,6 @@ function videoBlock() {
     }
 }
 function projects() {
-/*
-    block.style.backgroundColor = "orange";
-    block2.style.backgroundColor = "orange";
-    block3.style.backgroundColor = "orange";
-    block4.style.backgroundColor = "orange";
-*/
     finance.style.display = "none";
     connect.style.display = "none";
     code.style.display = "none";
@@ -313,7 +280,9 @@ function projects() {
     sponsors.style.display = "none";
     video.style.display = "none";
     project.style.display = "block";
+    lense.style.display = "none";
     movie.style.display = "none";
+    followerCount.style.display = "none";
     socialMediaHeaders.style.display = "none";  
 
     if(movie.style.display = "none") {
@@ -322,4 +291,23 @@ function projects() {
     else {
         movieButton.innerText = "Hide Media"; 
     }
+}
+function lenses() {
+    finance.style.display = "none";
+    connect.style.display = "none";
+    code.style.display = "none";
+    social.style.display = "none";
+    sponsors.style.display = "none";
+    video.style.display = "none";
+    project.style.display = "none";
+    lense.style.display = "block";
+    movie.style.display = "none";
+    followerCount.style.display = "none";
+    socialMediaHeaders.style.display = "none";  
+    if(movie.style.display = "none") {
+        movieButton.innerText = "Show Media";
+    }
+    else {
+        movieButton.innerText = "Hide Media"; 
+    } 
 }
