@@ -318,6 +318,9 @@ img {
 .movie {
     display: none;
 }
+svg {
+    z-index: 1;
+}
 @keyframes flying {
     from {
         bottom: 0;

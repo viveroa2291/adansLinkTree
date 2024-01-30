@@ -11,6 +11,8 @@ var movieButton = document.getElementById("hide-movie-button");
 var socialMediaHeaders = document.getElementById("social-media-headers");
 
 var followerCount = document.getElementById('follower-count');
+var description = document.getElementById("description");
+var newDescription = document.getElementById("new-description");
 
 var fetchMyRewards = document.getElementById("fetch-article"); // Added this here because I was getting a bug 
 
@@ -26,7 +28,9 @@ function financeBlock() {
     lense.style.display = "none";
     followerCount.style.display = "none";
     socialMediaHeaders.style.display = "none";
-   
+    description.style.display = "none";
+
+    newDescription.innerHTML = "Stocks, Crypto, & Payment apps";
     if(movie.style.display = "none") {
         movieButton.innerText = "Show Media";
     }
@@ -153,7 +157,9 @@ function codeBlock() {
     lense.style.display = "none";
     followerCount.style.display = "none";
     socialMediaHeaders.style.display = "none";
+    description.style.display = "none";
 
+    newDescription.innerHTML = "My developer deck";
     if(movie.style.display = "none") {
         movieButton.innerText = "Show Media";
     }
@@ -173,7 +179,9 @@ function sponsorsBlock() {
     lense.style.display = "none";
     followerCount.style.display = "none";
     socialMediaHeaders.style.display = "none";
+    description.style.display = "none";
 
+    newDescription.innerHTML = "Partners & Philanthropy";
     if(movie.style.display = "none") {
         movieButton.innerText = "Show Media";
     }
@@ -225,6 +233,9 @@ function connectBlock() {
     followerCount.style.display = "none";
     socialMediaHeaders.style.display = "none";
 
+    description.style.display = "none";
+
+    newDescription.innerHTML = "Lets Connect & Collaborate";
     if(movie.style.display = "none") {
         movieButton.innerText = "Show Media";
     }
@@ -245,6 +256,9 @@ function socialBlock() {
     followerCount.style.display = "none";
     socialMediaHeaders.style.display = "none";
 
+    description.style.display = "none";
+
+    newDescription.innerHTML = "My Social Media accounts";
     if(movie.style.display = "none") {
         movieButton.innerText = "Show Media";
     }
@@ -264,7 +278,9 @@ function videoBlock() {
     lense.style.display = "none";
     followerCount.style.display = "none";
     socialMediaHeaders.style.display = "none"; 
+    description.style.display = "none";
 
+    newDescription.innerHTML = "Content Creation";
     if(movie.style.display = "none") {
         movieButton.innerText = "Show Media";
     }
@@ -284,7 +300,9 @@ function projects() {
     movie.style.display = "none";
     followerCount.style.display = "none";
     socialMediaHeaders.style.display = "none";  
+    description.style.display = "none";
 
+    newDescription.innerHTML = "Personal Web Application Projects";
     if(movie.style.display = "none") {
         movieButton.innerText = "Show Media";
     }
@@ -304,6 +322,9 @@ function lenses() {
     movie.style.display = "none";
     followerCount.style.display = "none";
     socialMediaHeaders.style.display = "none";  
+    description.style.display = "none";
+
+    newDescription.innerHTML = "My Snapchat Lenses";
     if(movie.style.display = "none") {
         movieButton.innerText = "Show Media";
     }
