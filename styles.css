@@ -115,7 +115,7 @@ img {
     text-decoration: none;
     margin-right: .75rem;
 }
-.finance, .code, .connect, .sponsors, .social, .video, .projects {
+.finance, .code, .connect, .sponsors, .social, .video, .projects, .content {
     display: none;
 }
 .code-body {

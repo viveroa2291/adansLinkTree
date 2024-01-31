@@ -6,6 +6,7 @@ var connect = document.getElementById("connect");
 var video = document.getElementById("video");
 var project = document.getElementById("projects");
 var lense = document.getElementById("lenses");
+var content = document.getElementById("content");
 var movie = document.getElementById("movie"); 
 var movieButton = document.getElementById("hide-movie-button");
 var socialMediaHeaders = document.getElementById("social-media-headers");
@@ -26,6 +27,7 @@ function financeBlock() {
     project.style.display = "none";
     movie.style.display = "none";
     lense.style.display = "none";
+    content.style.display = "none";
     followerCount.style.display = "none";
     socialMediaHeaders.style.display = "none";
     description.style.display = "none";
@@ -155,6 +157,7 @@ function codeBlock() {
     project.style.display = "none";
     movie.style.display = "none";
     lense.style.display = "none";
+    content.style.display = "none";
     followerCount.style.display = "none";
     socialMediaHeaders.style.display = "none";
     description.style.display = "none";
@@ -177,6 +180,7 @@ function sponsorsBlock() {
     project.style.display = "none";
     movie.style.display = "none";
     lense.style.display = "none";
+    content.style.display = "none";
     followerCount.style.display = "none";
     socialMediaHeaders.style.display = "none";
     description.style.display = "none";
@@ -230,6 +234,7 @@ function connectBlock() {
     project.style.display = "none";
     movie.style.display = "none";
     lense.style.display = "none";
+    content.style.display = "none";
     followerCount.style.display = "none";
     socialMediaHeaders.style.display = "none";
 
@@ -253,6 +258,7 @@ function socialBlock() {
     project.style.display = "none";
     movie.style.display = "none";
     lense.style.display = "none";
+    content.style.display = "none";
     followerCount.style.display = "none";
     socialMediaHeaders.style.display = "none";
 
@@ -276,6 +282,7 @@ function videoBlock() {
     project.style.display = "none";
     movie.style.display = "none";
     lense.style.display = "none";
+    content.style.display = "none";
     followerCount.style.display = "none";
     socialMediaHeaders.style.display = "none"; 
     description.style.display = "none";
@@ -298,6 +305,7 @@ function projects() {
     project.style.display = "block";
     lense.style.display = "none";
     movie.style.display = "none";
+    content.style.display = "none";
     followerCount.style.display = "none";
     socialMediaHeaders.style.display = "none";  
     description.style.display = "none";
@@ -320,6 +328,7 @@ function lenses() {
     project.style.display = "none";
     lense.style.display = "block";
     movie.style.display = "none";
+    content.style.display = "none";
     followerCount.style.display = "none";
     socialMediaHeaders.style.display = "none";  
     description.style.display = "none";
@@ -331,4 +340,27 @@ function lenses() {
     else {
         movieButton.innerText = "Hide Media"; 
     } 
+}
+function contents() {
+    finance.style.display = "none";
+    connect.style.display = "none";
+    code.style.display = "none";
+    social.style.display = "none";
+    sponsors.style.display = "none";
+    video.style.display = "none";
+    project.style.display = "none";
+    lense.style.display = "none";
+    movie.style.display = "none";
+    content.style.display = "block";
+    followerCount.style.display = "none";
+    socialMediaHeaders.style.display = "none";  
+    description.style.display = "none";
+
+    newDescription.innerHTML = "My Snapchat Content";
+    if(movie.style.display = "none") {
+        movieButton.innerText = "Show Media";
+    }
+    else {
+        movieButton.innerText = "Hide Media"; 
+    }  
 }
