@@ -28,6 +28,7 @@
     background-color: white;
 }
 .lense-link {
+    display: block;
     font-size: 14px;
     color: white;
     text-decoration: none;
@@ -47,6 +48,7 @@
 }
 .lense-code>img {
     height: 125px;
+    margin-bottom: 1rem;
 }
 .preview {
     margin: 2rem 0;

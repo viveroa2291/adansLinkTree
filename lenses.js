@@ -7,6 +7,14 @@ var other = document.getElementsByClassName("other");
 
 var lenseBody = document.getElementById("lense-body");
 
+function allLenses() {
+    showElements(college);
+    showElements(highschool);
+    showElements(brand);
+    showElements(kanye);
+    showElements(country);
+    showElements(other);
+}
 function colleges() {
     showElements(college);
     hideElements(highschool);
