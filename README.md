@@ -2,9 +2,11 @@
 A personalized linktree page created by me that includes all the links to my social media, threads, code, or other forums. 
 
 Social Media Site including links to my projects and ways to get in contact with me.
+
 Tech used: [![HTML](https://img.shields.io/badge/HTML-E34F26?style=for-the-badge&logo=html5&logoColor=white)](https://github.com/viveroa2291/README.md)
  [![CSS](https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logo=css3&logoColor=white)](https://github.com/viveroa2291/README.md)
  ![JavaScript](https://img.shields.io/badge/javascript%20-%23323330.svg?&style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
+ 
 My learning was focused on making a simple UI and a smooth UX, and have a seasonal animation for dark-mode.
 
 Optimizations
