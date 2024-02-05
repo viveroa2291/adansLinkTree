@@ -9,7 +9,12 @@ My learning was focused on making a simple UI that resembled a linktree with a s
 
 # Optimizations
 
-When I improve this project, I would start by updating the spring and summer animation of rain and fireflies. Currently have fall and winter finished just need to add the other too into the Date checker. Would also like to add some javascript to add gifs to front page.
+To improve this website, I plan on 
+<ul>
+ <li>Faster rendering on the images of the page for the mobile design. It might be complicated because of how it is set up but will be something I will look into.</li>
+ <li>Clean up the design on the lenses with the grid layout.</li>
+ <li>Implement a round image for my main image of me for the mobile design. Right now there is an oval. </li>
+ </ul> 
 
 # Lessons Learned:
 
