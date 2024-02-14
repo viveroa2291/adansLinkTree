@@ -64,6 +64,11 @@
 .tic-tac-toe-text {
     margin-left: 3.5rem;
 }
+.valentines-image {
+    height: 30px;
+    margin-left: 1rem;
+    align-self: center;
+}
 @media (max-width: 800px) {
     .project-body {
         width: 69%;

@@ -78,6 +78,10 @@ if(mm == 1 && dd == 2) {
 if(mm == 1 && dd == 16) {
     day.innerText = "Happy " + days + "\n\nToday is Martin Luther King Jr. Day!";
 }
+// Valentines Day
+if(mm == 2 && dd == 14) {
+    day.innerText = "Happy " + days + "\n\nHappy Valentines Day!";
+}
 // Washington's birthday
 if(mm == 2 && dd == 20) {
     day.innerText = "Happy " + days + "\\Today is Washington's birthday.";
